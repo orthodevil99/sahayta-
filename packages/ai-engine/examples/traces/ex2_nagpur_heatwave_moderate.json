@@ -1,0 +1,45 @@
+{
+  "severity": 2,
+  "rationale": "भीषण गर्मी; रिहायशी इलाका प्रभावित — मध्यम स्थिति.",
+  "rationale_en": "severe heat; residential area affected — severity 2/5.",
+  "area_tags": [
+    "residential",
+    "heat_affected"
+  ],
+  "category": "medical",
+  "priority": "medium",
+  "suggested_skills": [
+    "medical",
+    "logistics"
+  ],
+  "model": "rule-fallback-v1",
+  "latency_ms": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "tokens_estimated": true,
+  "cost_usd_estimate": 0.0,
+  "route": {
+    "suggested_skills": [
+      "medical",
+      "logistics"
+    ],
+    "priority": "medium",
+    "category": "medical",
+    "recommended_channel": "app",
+    "verify_recommended": false,
+    "notes": "queue for triage board; no auto-dispatch"
+  },
+  "notify_preview": {
+    "alert_type": "heatwave",
+    "languages": [
+      "hi"
+    ],
+    "messages": {
+      "hi": "लू की चेतावनी: {district} में तापमान °C तक पहुँच सकता है। धूप में न निकलें, पानी पिएँ। हेल्पलाइन: 1078"
+    },
+    "sources": {
+      "hi": "template"
+    }
+  },
+  "notes": []
+}

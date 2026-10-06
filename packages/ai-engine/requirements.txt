@@ -1,0 +1,5 @@
+# Sahayta AI Engine — Python dependencies
+# Runtime: standard library only (urllib for the LLM client). Nothing to install
+# to run the engine itself.
+# Test tooling (pinned to match backend/requirements.txt):
+pytest==8.3.4

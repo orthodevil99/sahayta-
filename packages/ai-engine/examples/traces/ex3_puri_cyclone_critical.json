@@ -1,0 +1,46 @@
+{
+  "severity": 5,
+  "rationale": "तेज़ तूफ़ान; लोग छतों पर हैं — विनाशकारी स्थिति.",
+  "rationale_en": "severe storm; people on rooftops — severity 5/5.",
+  "area_tags": [
+    "residential",
+    "power_outage",
+    "wind_damage"
+  ],
+  "category": "rescue",
+  "priority": "critical",
+  "suggested_skills": [
+    "rescue",
+    "driving"
+  ],
+  "model": "rule-fallback-v1",
+  "latency_ms": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "tokens_estimated": true,
+  "cost_usd_estimate": 0.0,
+  "route": {
+    "suggested_skills": [
+      "rescue",
+      "driving"
+    ],
+    "priority": "critical",
+    "category": "rescue",
+    "recommended_channel": "sms+app+ivrs",
+    "verify_recommended": true,
+    "notes": "auto-dispatch candidate: broadcast to nearby volunteers with skills rescue, driving"
+  },
+  "notify_preview": {
+    "alert_type": "cyclone",
+    "languages": [
+      "hi"
+    ],
+    "messages": {
+      "hi": "चक्रवात चेतावनी: {district} तट पर तेज़ हवाएँ ( किमी/घंटा)। घर के अंदर रहें, खिड़कियाँ बंद रखें। हेल्पलाइन: 1078"
+    },
+    "sources": {
+      "hi": "template"
+    }
+  },
+  "notes": []
+}

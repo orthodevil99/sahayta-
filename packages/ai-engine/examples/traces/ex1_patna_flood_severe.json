@@ -1,0 +1,45 @@
+{
+  "severity": 4,
+  "rationale": "घुटनों तक पानी; लोग छतों पर हैं — अति गंभीर स्थिति.",
+  "rationale_en": "knee-deep water; people on rooftops — severity 4/5.",
+  "area_tags": [
+    "road_submerged",
+    "residential"
+  ],
+  "category": "rescue",
+  "priority": "critical",
+  "suggested_skills": [
+    "rescue",
+    "driving"
+  ],
+  "model": "rule-fallback-v1",
+  "latency_ms": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "tokens_estimated": true,
+  "cost_usd_estimate": 0.0,
+  "route": {
+    "suggested_skills": [
+      "rescue",
+      "driving"
+    ],
+    "priority": "critical",
+    "category": "rescue",
+    "recommended_channel": "sms+app+ivrs",
+    "verify_recommended": true,
+    "notes": "auto-dispatch candidate: broadcast to nearby volunteers with skills rescue, driving"
+  },
+  "notify_preview": {
+    "alert_type": "flood",
+    "languages": [
+      "hi"
+    ],
+    "messages": {
+      "hi": "बाढ़ चेतावनी: {district} के निचले इलाकों में पानी बढ़ रहा है। तुरंत ऊँची जगह जाएँ। राहत शिविर खुले हैं। हेल्पलाइन: 1078"
+    },
+    "sources": {
+      "hi": "template"
+    }
+  },
+  "notes": []
+}
