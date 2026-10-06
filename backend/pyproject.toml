@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"
+
+[project]
+name = "sahayta-backend"
+version = "1.0.0"
+requires-python = ">=3.11"
