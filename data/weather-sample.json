@@ -1,0 +1,6058 @@
+{
+ "meta": {
+  "days": 30,
+  "end_date": "2026-10-06",
+  "resolution": "daily",
+  "synthetic": true,
+  "note": "ALL SERIES SYNTHETIC. Scripted extremes: Patna flood spike (last 72h), Nagpur heatwave (last 7d), Puri/Chennai cyclone winds (last 2d)."
+ },
+ "seed_hints": {
+  "patna": {
+   "risk": 82,
+   "risk_level": "high",
+   "note": "demo-scenario acceptance: risk >= 70 with rainfall_24h_mm factor"
+  }
+ },
+ "districts": {
+  "patna": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 12.057470276239313,
+    "temp_c": 29.3,
+    "humidity_pct": 84.4,
+    "wind_kph": 24.8,
+    "river_level_m": 46.07,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 13.282838121577175,
+    "temp_c": 30.8,
+    "humidity_pct": 90.8,
+    "wind_kph": 20.7,
+    "river_level_m": 46.32,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 0.0,
+    "temp_c": 30.3,
+    "humidity_pct": 80.0,
+    "wind_kph": 17.5,
+    "river_level_m": 46.44,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 10.592133258378155,
+    "temp_c": 28.2,
+    "humidity_pct": 83.3,
+    "wind_kph": 8.0,
+    "river_level_m": 46.3,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 24.12575602727776,
+    "temp_c": 31.3,
+    "humidity_pct": 73.1,
+    "wind_kph": 19.8,
+    "river_level_m": 45.84,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 19.310618618887926,
+    "temp_c": 28.8,
+    "humidity_pct": 80.5,
+    "wind_kph": 13.0,
+    "river_level_m": 46.29,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 4.9670913099672624,
+    "temp_c": 32.1,
+    "humidity_pct": 89.1,
+    "wind_kph": 12.0,
+    "river_level_m": 46.13,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 19.829351847286418,
+    "temp_c": 26.2,
+    "humidity_pct": 76.5,
+    "wind_kph": 15.9,
+    "river_level_m": 46.12,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 17.44069812215906,
+    "temp_c": 29.9,
+    "humidity_pct": 83.1,
+    "wind_kph": 20.5,
+    "river_level_m": 47.01,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 9.220459884652488,
+    "temp_c": 30.9,
+    "humidity_pct": 73.1,
+    "wind_kph": 9.8,
+    "river_level_m": 46.8,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 18.909452685543297,
+    "temp_c": 31.1,
+    "humidity_pct": 72.6,
+    "wind_kph": 29.1,
+    "river_level_m": 46.64,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 4.630343175899528,
+    "temp_c": 30.7,
+    "humidity_pct": 87.0,
+    "wind_kph": 24.5,
+    "river_level_m": 45.86,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 2.7721843829539026,
+    "temp_c": 29.2,
+    "humidity_pct": 88.1,
+    "wind_kph": 15.4,
+    "river_level_m": 46.06,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 11.705101171293594,
+    "temp_c": 26.3,
+    "humidity_pct": 87.2,
+    "wind_kph": 17.1,
+    "river_level_m": 46.04,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 16.30042356668452,
+    "temp_c": 30.4,
+    "humidity_pct": 80.1,
+    "wind_kph": 18.7,
+    "river_level_m": 46.4,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 20.376768663539444,
+    "temp_c": 30.3,
+    "humidity_pct": 82.4,
+    "wind_kph": 23.5,
+    "river_level_m": 46.34,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 7.221927536789658,
+    "temp_c": 30.1,
+    "humidity_pct": 87.2,
+    "wind_kph": 19.1,
+    "river_level_m": 46.43,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 15.627671853592481,
+    "temp_c": 31.2,
+    "humidity_pct": 85.1,
+    "wind_kph": 12.9,
+    "river_level_m": 46.31,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 8.353620500674703,
+    "temp_c": 30.4,
+    "humidity_pct": 84.6,
+    "wind_kph": 14.5,
+    "river_level_m": 45.77,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 14.057110437914524,
+    "temp_c": 31.0,
+    "humidity_pct": 82.3,
+    "wind_kph": 29.2,
+    "river_level_m": 46.33,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 13.587521319231403,
+    "temp_c": 29.6,
+    "humidity_pct": 80.8,
+    "wind_kph": 14.5,
+    "river_level_m": 46.49,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 16.058267947364033,
+    "temp_c": 31.7,
+    "humidity_pct": 75.6,
+    "wind_kph": 15.3,
+    "river_level_m": 46.84,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 24.151385500707867,
+    "temp_c": 27.0,
+    "humidity_pct": 86.8,
+    "wind_kph": 20.7,
+    "river_level_m": 47.12,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 14.44542127657828,
+    "temp_c": 28.5,
+    "humidity_pct": 79.8,
+    "wind_kph": 10.5,
+    "river_level_m": 46.41,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 23.497673587431372,
+    "temp_c": 32.1,
+    "humidity_pct": 83.2,
+    "wind_kph": 18.2,
+    "river_level_m": 46.58,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 16.245608915897783,
+    "temp_c": 29.1,
+    "humidity_pct": 78.9,
+    "wind_kph": 23.0,
+    "river_level_m": 45.97,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 19.264758698214024,
+    "temp_c": 30.5,
+    "humidity_pct": 82.7,
+    "wind_kph": 24.9,
+    "river_level_m": 46.42,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 80.0,
+    "temp_c": 31.3,
+    "humidity_pct": 95.0,
+    "wind_kph": 18.3,
+    "river_level_m": 48.21,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 137.3,
+    "temp_c": 29.6,
+    "humidity_pct": 94.5,
+    "wind_kph": 21.2,
+    "river_level_m": 49.04,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 184.7,
+    "temp_c": 30.7,
+    "humidity_pct": 95.8,
+    "wind_kph": 10.0,
+    "river_level_m": 50.38,
+    "river_trend": "rising",
+    "source": "simulated"
+   }
+  ],
+  "vaishali": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 0.9584139607248598,
+    "temp_c": 29.6,
+    "humidity_pct": 70.0,
+    "wind_kph": 24.5,
+    "river_level_m": 44.43,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 20.82407697823176,
+    "temp_c": 31.1,
+    "humidity_pct": 80.6,
+    "wind_kph": 21.3,
+    "river_level_m": 44.11,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 10.42987485145848,
+    "temp_c": 32.3,
+    "humidity_pct": 84.2,
+    "wind_kph": 27.2,
+    "river_level_m": 43.96,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 9.011652830056454,
+    "temp_c": 31.0,
+    "humidity_pct": 74.2,
+    "wind_kph": 21.6,
+    "river_level_m": 43.81,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 14.245025872819674,
+    "temp_c": 32.0,
+    "humidity_pct": 88.1,
+    "wind_kph": 16.8,
+    "river_level_m": 43.87,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 0.0,
+    "temp_c": 30.9,
+    "humidity_pct": 72.8,
+    "wind_kph": 28.7,
+    "river_level_m": 44.01,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 12.18190926181412,
+    "temp_c": 32.0,
+    "humidity_pct": 78.4,
+    "wind_kph": 23.0,
+    "river_level_m": 44.51,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 0.0,
+    "temp_c": 29.9,
+    "humidity_pct": 84.2,
+    "wind_kph": 17.9,
+    "river_level_m": 43.77,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 12.436478311026733,
+    "temp_c": 31.0,
+    "humidity_pct": 84.1,
+    "wind_kph": 10.5,
+    "river_level_m": 44.29,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 14.223381623949438,
+    "temp_c": 33.3,
+    "humidity_pct": 72.9,
+    "wind_kph": 21.2,
+    "river_level_m": 43.57,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 5.298833712213407,
+    "temp_c": 32.8,
+    "humidity_pct": 77.1,
+    "wind_kph": 17.4,
+    "river_level_m": 43.96,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 11.805106436947522,
+    "temp_c": 30.5,
+    "humidity_pct": 84.9,
+    "wind_kph": 25.5,
+    "river_level_m": 43.9,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 10.121936235897701,
+    "temp_c": 32.0,
+    "humidity_pct": 79.6,
+    "wind_kph": 25.2,
+    "river_level_m": 43.83,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 0.5652917110873217,
+    "temp_c": 32.4,
+    "humidity_pct": 81.1,
+    "wind_kph": 23.8,
+    "river_level_m": 43.95,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 4.910818433781861,
+    "temp_c": 31.6,
+    "humidity_pct": 80.1,
+    "wind_kph": 24.4,
+    "river_level_m": 44.21,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 3.9009041004338565,
+    "temp_c": 30.8,
+    "humidity_pct": 75.6,
+    "wind_kph": 19.7,
+    "river_level_m": 43.84,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 0.0,
+    "temp_c": 30.4,
+    "humidity_pct": 72.7,
+    "wind_kph": 21.3,
+    "river_level_m": 44.06,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 2.0210463928749345,
+    "temp_c": 30.3,
+    "humidity_pct": 79.1,
+    "wind_kph": 29.9,
+    "river_level_m": 43.95,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 15.51683760023086,
+    "temp_c": 29.7,
+    "humidity_pct": 82.6,
+    "wind_kph": 20.8,
+    "river_level_m": 44.32,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 19.1772502977444,
+    "temp_c": 33.8,
+    "humidity_pct": 78.1,
+    "wind_kph": 24.9,
+    "river_level_m": 44.05,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 0.0,
+    "temp_c": 31.5,
+    "humidity_pct": 78.6,
+    "wind_kph": 20.2,
+    "river_level_m": 44.4,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 1.6386436544577894,
+    "temp_c": 30.9,
+    "humidity_pct": 88.2,
+    "wind_kph": 28.8,
+    "river_level_m": 44.17,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 0.0,
+    "temp_c": 29.8,
+    "humidity_pct": 79.9,
+    "wind_kph": 22.7,
+    "river_level_m": 43.53,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 2.789921246783729,
+    "temp_c": 29.6,
+    "humidity_pct": 82.0,
+    "wind_kph": 14.4,
+    "river_level_m": 43.96,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 5.9406252372029975,
+    "temp_c": 30.0,
+    "humidity_pct": 74.1,
+    "wind_kph": 20.8,
+    "river_level_m": 43.77,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 11.318934435210164,
+    "temp_c": 28.9,
+    "humidity_pct": 75.1,
+    "wind_kph": 18.3,
+    "river_level_m": 44.01,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 6.692185609199392,
+    "temp_c": 31.8,
+    "humidity_pct": 96.4,
+    "wind_kph": 27.9,
+    "river_level_m": 44.19,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 11.841783750856301,
+    "temp_c": 31.4,
+    "humidity_pct": 79.8,
+    "wind_kph": 25.3,
+    "river_level_m": 43.89,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 0.0,
+    "temp_c": 31.8,
+    "humidity_pct": 91.5,
+    "wind_kph": 21.3,
+    "river_level_m": 43.59,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 2.0210790251660464,
+    "temp_c": 32.4,
+    "humidity_pct": 71.7,
+    "wind_kph": 20.6,
+    "river_level_m": 44.03,
+    "river_trend": "falling",
+    "source": "simulated"
+   }
+  ],
+  "gaya": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 2.092781853490219,
+    "temp_c": 29.9,
+    "humidity_pct": 67.6,
+    "wind_kph": 23.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 0.0,
+    "temp_c": 30.3,
+    "humidity_pct": 78.6,
+    "wind_kph": 18.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 23.093181935642793,
+    "temp_c": 28.8,
+    "humidity_pct": 80.1,
+    "wind_kph": 15.5,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 4.020374205207582,
+    "temp_c": 31.3,
+    "humidity_pct": 67.2,
+    "wind_kph": 17.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 0.0,
+    "temp_c": 30.9,
+    "humidity_pct": 71.0,
+    "wind_kph": 12.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 0.0,
+    "temp_c": 29.9,
+    "humidity_pct": 70.5,
+    "wind_kph": 15.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 0.0,
+    "temp_c": 29.8,
+    "humidity_pct": 77.4,
+    "wind_kph": 19.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 0.0,
+    "temp_c": 32.3,
+    "humidity_pct": 76.8,
+    "wind_kph": 20.4,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 0.0,
+    "temp_c": 34.4,
+    "humidity_pct": 69.1,
+    "wind_kph": 15.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 6.317848106660404,
+    "temp_c": 32.0,
+    "humidity_pct": 61.9,
+    "wind_kph": 15.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 16.66589974259248,
+    "temp_c": 30.8,
+    "humidity_pct": 73.7,
+    "wind_kph": 10.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 6.031501888723182,
+    "temp_c": 32.3,
+    "humidity_pct": 73.5,
+    "wind_kph": 17.4,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 11.64476038450461,
+    "temp_c": 31.1,
+    "humidity_pct": 95.0,
+    "wind_kph": 10.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 6.341352747492929,
+    "temp_c": 29.7,
+    "humidity_pct": 67.7,
+    "wind_kph": 12.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 0.0,
+    "temp_c": 30.3,
+    "humidity_pct": 79.6,
+    "wind_kph": 11.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 4.821624187549334,
+    "temp_c": 32.2,
+    "humidity_pct": 63.3,
+    "wind_kph": 14.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 0.0,
+    "temp_c": 31.0,
+    "humidity_pct": 75.9,
+    "wind_kph": 8.5,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 1.0545096562269154,
+    "temp_c": 30.1,
+    "humidity_pct": 79.8,
+    "wind_kph": 24.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 6.6633299598034705,
+    "temp_c": 31.1,
+    "humidity_pct": 86.3,
+    "wind_kph": 16.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 7.432875295789685,
+    "temp_c": 32.6,
+    "humidity_pct": 71.5,
+    "wind_kph": 21.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 10.675031026833654,
+    "temp_c": 31.5,
+    "humidity_pct": 67.3,
+    "wind_kph": 20.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 0.0,
+    "temp_c": 31.7,
+    "humidity_pct": 76.2,
+    "wind_kph": 12.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 16.037014050662517,
+    "temp_c": 30.2,
+    "humidity_pct": 85.9,
+    "wind_kph": 25.5,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 11.223740413916321,
+    "temp_c": 32.3,
+    "humidity_pct": 77.8,
+    "wind_kph": 27.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 14.816941758692886,
+    "temp_c": 32.9,
+    "humidity_pct": 74.2,
+    "wind_kph": 15.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 13.69462342147397,
+    "temp_c": 32.4,
+    "humidity_pct": 77.0,
+    "wind_kph": 23.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 11.890134613037624,
+    "temp_c": 32.2,
+    "humidity_pct": 73.2,
+    "wind_kph": 26.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 3.710134696612608,
+    "temp_c": 27.1,
+    "humidity_pct": 73.4,
+    "wind_kph": 22.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 9.005028050660268,
+    "temp_c": 28.9,
+    "humidity_pct": 77.2,
+    "wind_kph": 23.4,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 3.3117515941755062,
+    "temp_c": 29.8,
+    "humidity_pct": 76.2,
+    "wind_kph": 33.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   }
+  ],
+  "muzaffarpur": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 9.788611762535988,
+    "temp_c": 28.7,
+    "humidity_pct": 79.3,
+    "wind_kph": 29.8,
+    "river_level_m": 51.19,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 20.915953946522585,
+    "temp_c": 28.3,
+    "humidity_pct": 80.1,
+    "wind_kph": 11.8,
+    "river_level_m": 50.47,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 22.223598720780295,
+    "temp_c": 31.7,
+    "humidity_pct": 71.1,
+    "wind_kph": 17.2,
+    "river_level_m": 51.24,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 11.947353350544365,
+    "temp_c": 30.3,
+    "humidity_pct": 74.2,
+    "wind_kph": 16.7,
+    "river_level_m": 51.54,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 6.061006633174808,
+    "temp_c": 30.9,
+    "humidity_pct": 99,
+    "wind_kph": 6.4,
+    "river_level_m": 51.01,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 5.196684624710314,
+    "temp_c": 32.6,
+    "humidity_pct": 83.1,
+    "wind_kph": 12.8,
+    "river_level_m": 51.37,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 27.832320054186145,
+    "temp_c": 28.1,
+    "humidity_pct": 81.6,
+    "wind_kph": 14.2,
+    "river_level_m": 51.36,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 23.04803399889358,
+    "temp_c": 31.8,
+    "humidity_pct": 80.0,
+    "wind_kph": 11.8,
+    "river_level_m": 51.21,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 18.35020856563051,
+    "temp_c": 27.5,
+    "humidity_pct": 79.6,
+    "wind_kph": 25.0,
+    "river_level_m": 51.64,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 21.761414285598825,
+    "temp_c": 28.2,
+    "humidity_pct": 89.0,
+    "wind_kph": 14.1,
+    "river_level_m": 51.48,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 15.242001342090798,
+    "temp_c": 32.0,
+    "humidity_pct": 72.0,
+    "wind_kph": 16.6,
+    "river_level_m": 51.06,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 2.1166939655987997,
+    "temp_c": 26.9,
+    "humidity_pct": 83.8,
+    "wind_kph": 14.5,
+    "river_level_m": 51.54,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 8.94563466302409,
+    "temp_c": 31.3,
+    "humidity_pct": 81.5,
+    "wind_kph": 7.8,
+    "river_level_m": 50.86,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 5.834275467559741,
+    "temp_c": 30.6,
+    "humidity_pct": 78.6,
+    "wind_kph": 1.6,
+    "river_level_m": 51.19,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 15.852146784689708,
+    "temp_c": 28.9,
+    "humidity_pct": 85.5,
+    "wind_kph": 10.6,
+    "river_level_m": 50.9,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 0.0,
+    "temp_c": 28.1,
+    "humidity_pct": 86.4,
+    "wind_kph": 18.6,
+    "river_level_m": 51.15,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 10.908486211726439,
+    "temp_c": 31.9,
+    "humidity_pct": 80.3,
+    "wind_kph": 15.8,
+    "river_level_m": 51.24,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 0.0,
+    "temp_c": 30.0,
+    "humidity_pct": 70.7,
+    "wind_kph": 4.2,
+    "river_level_m": 51.19,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 17.183505814767802,
+    "temp_c": 29.4,
+    "humidity_pct": 88.7,
+    "wind_kph": 17.4,
+    "river_level_m": 51.54,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 12.03902812714223,
+    "temp_c": 27.8,
+    "humidity_pct": 79.8,
+    "wind_kph": 6.0,
+    "river_level_m": 51.38,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 4.302767846964259,
+    "temp_c": 30.3,
+    "humidity_pct": 84.1,
+    "wind_kph": 5.1,
+    "river_level_m": 51.06,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 14.852943962155877,
+    "temp_c": 29.7,
+    "humidity_pct": 77.2,
+    "wind_kph": 12.7,
+    "river_level_m": 50.6,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 16.533297245159567,
+    "temp_c": 29.1,
+    "humidity_pct": 76.6,
+    "wind_kph": 1.9,
+    "river_level_m": 50.96,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 22.84966454540958,
+    "temp_c": 28.2,
+    "humidity_pct": 81.5,
+    "wind_kph": 21.1,
+    "river_level_m": 51.68,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 20.493380152548458,
+    "temp_c": 27.8,
+    "humidity_pct": 86.5,
+    "wind_kph": 22.4,
+    "river_level_m": 51.43,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 6.604644287000292,
+    "temp_c": 28.8,
+    "humidity_pct": 81.5,
+    "wind_kph": 11.8,
+    "river_level_m": 51.1,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 0.0,
+    "temp_c": 28.0,
+    "humidity_pct": 83.2,
+    "wind_kph": 7.1,
+    "river_level_m": 50.63,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 76.5,
+    "temp_c": 24.8,
+    "humidity_pct": 88.0,
+    "wind_kph": 13.3,
+    "river_level_m": 51.95,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 78.8,
+    "temp_c": 28.3,
+    "humidity_pct": 89.4,
+    "wind_kph": 17.6,
+    "river_level_m": 52.28,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 72.0,
+    "temp_c": 33.0,
+    "humidity_pct": 94.7,
+    "wind_kph": 23.0,
+    "river_level_m": 52.73,
+    "river_trend": "rising",
+    "source": "simulated"
+   }
+  ],
+  "darbhanga": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 25.365270117301307,
+    "temp_c": 32.1,
+    "humidity_pct": 78.4,
+    "wind_kph": 21.3,
+    "river_level_m": 48.84,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 40.822768365450216,
+    "temp_c": 32.6,
+    "humidity_pct": 66.9,
+    "wind_kph": 15.1,
+    "river_level_m": 48.5,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 9.594556874116911,
+    "temp_c": 31.0,
+    "humidity_pct": 86.9,
+    "wind_kph": 16.7,
+    "river_level_m": 49.06,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 26.177019849745896,
+    "temp_c": 31.1,
+    "humidity_pct": 69.6,
+    "wind_kph": 15.2,
+    "river_level_m": 49.1,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 7.88867290517967,
+    "temp_c": 29.2,
+    "humidity_pct": 77.1,
+    "wind_kph": 20.6,
+    "river_level_m": 48.99,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 8.255226784306663,
+    "temp_c": 30.5,
+    "humidity_pct": 76.8,
+    "wind_kph": 20.5,
+    "river_level_m": 48.75,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 2.764819943621635,
+    "temp_c": 32.2,
+    "humidity_pct": 65.8,
+    "wind_kph": 14.3,
+    "river_level_m": 49.12,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 23.70908313034307,
+    "temp_c": 33.0,
+    "humidity_pct": 68.6,
+    "wind_kph": 26.8,
+    "river_level_m": 48.86,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 17.437476651507644,
+    "temp_c": 31.0,
+    "humidity_pct": 81.1,
+    "wind_kph": 16.9,
+    "river_level_m": 48.5,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 28.66607663307728,
+    "temp_c": 32.1,
+    "humidity_pct": 76.9,
+    "wind_kph": 8.4,
+    "river_level_m": 48.35,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 14.666315545991807,
+    "temp_c": 30.7,
+    "humidity_pct": 74.8,
+    "wind_kph": 11.1,
+    "river_level_m": 48.75,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 7.5805008405223475,
+    "temp_c": 28.9,
+    "humidity_pct": 74.6,
+    "wind_kph": 17.3,
+    "river_level_m": 48.21,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 16.675006457130287,
+    "temp_c": 31.4,
+    "humidity_pct": 71.8,
+    "wind_kph": 10.7,
+    "river_level_m": 49.55,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 1.6221132009124535,
+    "temp_c": 30.0,
+    "humidity_pct": 67.6,
+    "wind_kph": 15.7,
+    "river_level_m": 49.19,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 7.349571502764876,
+    "temp_c": 35.2,
+    "humidity_pct": 73.2,
+    "wind_kph": 16.1,
+    "river_level_m": 49.37,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 19.62814324121109,
+    "temp_c": 30.4,
+    "humidity_pct": 75.2,
+    "wind_kph": 15.2,
+    "river_level_m": 48.55,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 21.592923820541685,
+    "temp_c": 31.9,
+    "humidity_pct": 76.6,
+    "wind_kph": 3.0,
+    "river_level_m": 48.84,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 33.21983010037104,
+    "temp_c": 30.4,
+    "humidity_pct": 83.5,
+    "wind_kph": 16.1,
+    "river_level_m": 49.1,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 22.05271545971568,
+    "temp_c": 32.8,
+    "humidity_pct": 81.0,
+    "wind_kph": 16.8,
+    "river_level_m": 48.8,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 21.926832999193717,
+    "temp_c": 31.7,
+    "humidity_pct": 72.7,
+    "wind_kph": 13.1,
+    "river_level_m": 49.22,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 17.893125392266384,
+    "temp_c": 31.1,
+    "humidity_pct": 84.6,
+    "wind_kph": 26.7,
+    "river_level_m": 49.11,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 22.499382510157304,
+    "temp_c": 31.2,
+    "humidity_pct": 81.0,
+    "wind_kph": 9.8,
+    "river_level_m": 48.87,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 22.427007691798714,
+    "temp_c": 29.7,
+    "humidity_pct": 80.2,
+    "wind_kph": 10.4,
+    "river_level_m": 49.13,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 5.58373205859856,
+    "temp_c": 31.3,
+    "humidity_pct": 78.5,
+    "wind_kph": 2.2,
+    "river_level_m": 48.6,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 26.37594386723341,
+    "temp_c": 32.5,
+    "humidity_pct": 78.2,
+    "wind_kph": 7.3,
+    "river_level_m": 49.13,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 29.998926549402665,
+    "temp_c": 33.5,
+    "humidity_pct": 80.5,
+    "wind_kph": 10.1,
+    "river_level_m": 48.66,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 20.211079419514892,
+    "temp_c": 31.4,
+    "humidity_pct": 88.9,
+    "wind_kph": 13.5,
+    "river_level_m": 48.39,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 52.9,
+    "temp_c": 32.9,
+    "humidity_pct": 88.2,
+    "wind_kph": 15.3,
+    "river_level_m": 50.96,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 67.9,
+    "temp_c": 32.9,
+    "humidity_pct": 88.5,
+    "wind_kph": 13.3,
+    "river_level_m": 50.21,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 52.5,
+    "temp_c": 31.4,
+    "humidity_pct": 94.4,
+    "wind_kph": 15.9,
+    "river_level_m": 50.01,
+    "river_trend": "rising",
+    "source": "simulated"
+   }
+  ],
+  "bhagalpur": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 14.782604007043126,
+    "temp_c": 32.8,
+    "humidity_pct": 81.6,
+    "wind_kph": 10.0,
+    "river_level_m": 31.04,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 15.54183714743554,
+    "temp_c": 29.8,
+    "humidity_pct": 90.9,
+    "wind_kph": 10.4,
+    "river_level_m": 31.49,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 0.0,
+    "temp_c": 30.8,
+    "humidity_pct": 66.6,
+    "wind_kph": 20.1,
+    "river_level_m": 31.73,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 7.96297684218786,
+    "temp_c": 29.5,
+    "humidity_pct": 88.2,
+    "wind_kph": 22.1,
+    "river_level_m": 31.51,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 7.716957366782463,
+    "temp_c": 31.5,
+    "humidity_pct": 77.0,
+    "wind_kph": 13.3,
+    "river_level_m": 31.29,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 5.816133267532969,
+    "temp_c": 30.9,
+    "humidity_pct": 87.6,
+    "wind_kph": 23.6,
+    "river_level_m": 31.04,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 12.064600704321972,
+    "temp_c": 31.2,
+    "humidity_pct": 84.9,
+    "wind_kph": 20.9,
+    "river_level_m": 31.55,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 15.344646549067672,
+    "temp_c": 31.9,
+    "humidity_pct": 84.4,
+    "wind_kph": 24.5,
+    "river_level_m": 32.04,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 9.529175028361882,
+    "temp_c": 33.2,
+    "humidity_pct": 93.1,
+    "wind_kph": 11.8,
+    "river_level_m": 31.6,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 7.842471589504666,
+    "temp_c": 31.1,
+    "humidity_pct": 86.2,
+    "wind_kph": 8.8,
+    "river_level_m": 31.01,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 11.94894360759351,
+    "temp_c": 31.8,
+    "humidity_pct": 75.5,
+    "wind_kph": 20.6,
+    "river_level_m": 31.44,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 3.9448179645155483,
+    "temp_c": 32.9,
+    "humidity_pct": 86.4,
+    "wind_kph": 18.0,
+    "river_level_m": 31.33,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 16.816689149170923,
+    "temp_c": 31.1,
+    "humidity_pct": 82.3,
+    "wind_kph": 12.3,
+    "river_level_m": 31.02,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 0.0,
+    "temp_c": 32.0,
+    "humidity_pct": 83.4,
+    "wind_kph": 19.7,
+    "river_level_m": 31.67,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 4.5359953521694605,
+    "temp_c": 33.2,
+    "humidity_pct": 84.1,
+    "wind_kph": 13.9,
+    "river_level_m": 31.55,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 0.0,
+    "temp_c": 30.7,
+    "humidity_pct": 74.4,
+    "wind_kph": 15.5,
+    "river_level_m": 31.62,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 8.443187159877418,
+    "temp_c": 30.3,
+    "humidity_pct": 77.3,
+    "wind_kph": 20.7,
+    "river_level_m": 31.95,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 14.429114897349116,
+    "temp_c": 32.3,
+    "humidity_pct": 86.4,
+    "wind_kph": 19.7,
+    "river_level_m": 30.85,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 6.1728405909450235,
+    "temp_c": 33.7,
+    "humidity_pct": 82.8,
+    "wind_kph": 21.2,
+    "river_level_m": 31.56,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 6.955355533729406,
+    "temp_c": 32.0,
+    "humidity_pct": 91.2,
+    "wind_kph": 20.4,
+    "river_level_m": 32.04,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 0.0,
+    "temp_c": 32.3,
+    "humidity_pct": 89.4,
+    "wind_kph": 18.8,
+    "river_level_m": 31.33,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 0.0,
+    "temp_c": 33.5,
+    "humidity_pct": 79.7,
+    "wind_kph": 13.0,
+    "river_level_m": 32.05,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 13.522349040328542,
+    "temp_c": 31.6,
+    "humidity_pct": 88.2,
+    "wind_kph": 13.8,
+    "river_level_m": 31.04,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 4.176788064643067,
+    "temp_c": 31.2,
+    "humidity_pct": 88.0,
+    "wind_kph": 27.0,
+    "river_level_m": 31.71,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 4.225723252080361,
+    "temp_c": 31.6,
+    "humidity_pct": 86.8,
+    "wind_kph": 28.5,
+    "river_level_m": 31.61,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 19.356959078336068,
+    "temp_c": 29.5,
+    "humidity_pct": 84.2,
+    "wind_kph": 19.2,
+    "river_level_m": 31.56,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 7.6569197451361255,
+    "temp_c": 33.9,
+    "humidity_pct": 81.4,
+    "wind_kph": 9.6,
+    "river_level_m": 31.92,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 0.0,
+    "temp_c": 31.4,
+    "humidity_pct": 87.7,
+    "wind_kph": 13.7,
+    "river_level_m": 31.56,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 0.0,
+    "temp_c": 33.2,
+    "humidity_pct": 80.7,
+    "wind_kph": 4.7,
+    "river_level_m": 31.46,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 0.0,
+    "temp_c": 29.6,
+    "humidity_pct": 99,
+    "wind_kph": 10.6,
+    "river_level_m": 31.39,
+    "river_trend": "falling",
+    "source": "simulated"
+   }
+  ],
+  "purnia": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 11.0220404974302,
+    "temp_c": 29.6,
+    "humidity_pct": 71.3,
+    "wind_kph": 0,
+    "river_level_m": 36.53,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 5.995922099848441,
+    "temp_c": 32.7,
+    "humidity_pct": 76.2,
+    "wind_kph": 16.0,
+    "river_level_m": 36.08,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 15.83196886650696,
+    "temp_c": 30.6,
+    "humidity_pct": 78.0,
+    "wind_kph": 22.8,
+    "river_level_m": 35.69,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 4.994829899795919,
+    "temp_c": 32.3,
+    "humidity_pct": 74.4,
+    "wind_kph": 1.7,
+    "river_level_m": 36.23,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 12.119836512958539,
+    "temp_c": 31.0,
+    "humidity_pct": 64.3,
+    "wind_kph": 8.6,
+    "river_level_m": 35.92,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 6.3261248497646605,
+    "temp_c": 31.1,
+    "humidity_pct": 73.2,
+    "wind_kph": 14.0,
+    "river_level_m": 35.29,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 16.533870502257432,
+    "temp_c": 32.0,
+    "humidity_pct": 68.9,
+    "wind_kph": 4.4,
+    "river_level_m": 35.87,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 4.5024471946927775,
+    "temp_c": 30.8,
+    "humidity_pct": 71.2,
+    "wind_kph": 6.0,
+    "river_level_m": 36.63,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 13.764739517939368,
+    "temp_c": 32.7,
+    "humidity_pct": 75.6,
+    "wind_kph": 29.9,
+    "river_level_m": 35.78,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 11.74482556519554,
+    "temp_c": 32.9,
+    "humidity_pct": 71.3,
+    "wind_kph": 18.2,
+    "river_level_m": 36.16,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 16.073257757725248,
+    "temp_c": 34.4,
+    "humidity_pct": 77.2,
+    "wind_kph": 5.2,
+    "river_level_m": 35.78,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 10.093789311888647,
+    "temp_c": 31.0,
+    "humidity_pct": 75.5,
+    "wind_kph": 7.2,
+    "river_level_m": 36.04,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 11.935363573967367,
+    "temp_c": 28.9,
+    "humidity_pct": 69.4,
+    "wind_kph": 8.9,
+    "river_level_m": 36.68,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 10.990937695561355,
+    "temp_c": 30.0,
+    "humidity_pct": 73.0,
+    "wind_kph": 9.9,
+    "river_level_m": 36.12,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 5.4052773516434565,
+    "temp_c": 31.5,
+    "humidity_pct": 73.1,
+    "wind_kph": 5.3,
+    "river_level_m": 36.18,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 8.44039001584798,
+    "temp_c": 33.1,
+    "humidity_pct": 82.0,
+    "wind_kph": 9.2,
+    "river_level_m": 35.77,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 17.929582102495328,
+    "temp_c": 32.4,
+    "humidity_pct": 75.6,
+    "wind_kph": 8.5,
+    "river_level_m": 35.49,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 17.926323762522735,
+    "temp_c": 33.5,
+    "humidity_pct": 72.5,
+    "wind_kph": 8.4,
+    "river_level_m": 35.66,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 19.32010344222209,
+    "temp_c": 32.0,
+    "humidity_pct": 74.6,
+    "wind_kph": 4.3,
+    "river_level_m": 36.19,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 8.710205944325288,
+    "temp_c": 32.6,
+    "humidity_pct": 75.1,
+    "wind_kph": 7.0,
+    "river_level_m": 35.58,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 12.67860907055454,
+    "temp_c": 32.1,
+    "humidity_pct": 73.9,
+    "wind_kph": 6.1,
+    "river_level_m": 35.95,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 18.10169424260564,
+    "temp_c": 30.3,
+    "humidity_pct": 77.2,
+    "wind_kph": 15.7,
+    "river_level_m": 35.91,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 13.299296286085246,
+    "temp_c": 30.7,
+    "humidity_pct": 80.3,
+    "wind_kph": 10.4,
+    "river_level_m": 35.87,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 22.934754158849096,
+    "temp_c": 31.0,
+    "humidity_pct": 85.6,
+    "wind_kph": 20.7,
+    "river_level_m": 36.18,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 1.0010630522555477,
+    "temp_c": 32.1,
+    "humidity_pct": 84.8,
+    "wind_kph": 18.2,
+    "river_level_m": 35.72,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 4.352795030811736,
+    "temp_c": 33.6,
+    "humidity_pct": 71.4,
+    "wind_kph": 4.6,
+    "river_level_m": 36.02,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 6.37257980027625,
+    "temp_c": 32.8,
+    "humidity_pct": 73.4,
+    "wind_kph": 1.6,
+    "river_level_m": 35.93,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 11.538253607860417,
+    "temp_c": 35.5,
+    "humidity_pct": 81.4,
+    "wind_kph": 17.0,
+    "river_level_m": 36.01,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 25.493357872629957,
+    "temp_c": 30.8,
+    "humidity_pct": 81.9,
+    "wind_kph": 12.8,
+    "river_level_m": 35.56,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 8.267199843592142,
+    "temp_c": 31.6,
+    "humidity_pct": 80.2,
+    "wind_kph": 9.4,
+    "river_level_m": 36.33,
+    "river_trend": "steady",
+    "source": "simulated"
+   }
+  ],
+  "katihar": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 4.36081056470338,
+    "temp_c": 28.2,
+    "humidity_pct": 92.0,
+    "wind_kph": 23.0,
+    "river_level_m": 29.58,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 24.280563006138618,
+    "temp_c": 32.1,
+    "humidity_pct": 99,
+    "wind_kph": 7.7,
+    "river_level_m": 29.45,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 30.364440163148778,
+    "temp_c": 35.0,
+    "humidity_pct": 85.2,
+    "wind_kph": 17.9,
+    "river_level_m": 29.72,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 15.214081956759996,
+    "temp_c": 35.0,
+    "humidity_pct": 79.9,
+    "wind_kph": 29.8,
+    "river_level_m": 29.42,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 15.832682498966566,
+    "temp_c": 33.3,
+    "humidity_pct": 66.3,
+    "wind_kph": 10.9,
+    "river_level_m": 30.1,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 20.411216343272418,
+    "temp_c": 32.3,
+    "humidity_pct": 83.3,
+    "wind_kph": 27.6,
+    "river_level_m": 29.18,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 22.746854725744328,
+    "temp_c": 32.2,
+    "humidity_pct": 78.8,
+    "wind_kph": 25.0,
+    "river_level_m": 29.9,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 11.470727850403112,
+    "temp_c": 30.4,
+    "humidity_pct": 78.3,
+    "wind_kph": 13.7,
+    "river_level_m": 29.32,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 22.44179253235257,
+    "temp_c": 32.2,
+    "humidity_pct": 80.9,
+    "wind_kph": 28.0,
+    "river_level_m": 30.38,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 0.3389604224333702,
+    "temp_c": 31.2,
+    "humidity_pct": 83.1,
+    "wind_kph": 27.0,
+    "river_level_m": 29.65,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 32.110427680903484,
+    "temp_c": 33.9,
+    "humidity_pct": 86.7,
+    "wind_kph": 16.8,
+    "river_level_m": 29.83,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 29.303987506482734,
+    "temp_c": 35.8,
+    "humidity_pct": 88.4,
+    "wind_kph": 12.0,
+    "river_level_m": 29.77,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 16.52099293661239,
+    "temp_c": 30.6,
+    "humidity_pct": 89.0,
+    "wind_kph": 9.8,
+    "river_level_m": 29.49,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 38.34936351929183,
+    "temp_c": 34.8,
+    "humidity_pct": 82.5,
+    "wind_kph": 23.9,
+    "river_level_m": 29.74,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 24.357819503424047,
+    "temp_c": 29.4,
+    "humidity_pct": 83.9,
+    "wind_kph": 27.2,
+    "river_level_m": 29.5,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 27.010638315494322,
+    "temp_c": 30.8,
+    "humidity_pct": 79.9,
+    "wind_kph": 7.3,
+    "river_level_m": 29.65,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 21.308049600598387,
+    "temp_c": 32.4,
+    "humidity_pct": 92.3,
+    "wind_kph": 14.8,
+    "river_level_m": 29.6,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 22.971432150929576,
+    "temp_c": 30.7,
+    "humidity_pct": 78.2,
+    "wind_kph": 21.2,
+    "river_level_m": 29.52,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 16.83218826557981,
+    "temp_c": 32.4,
+    "humidity_pct": 83.3,
+    "wind_kph": 15.7,
+    "river_level_m": 29.45,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 15.618480783226321,
+    "temp_c": 32.1,
+    "humidity_pct": 99,
+    "wind_kph": 23.7,
+    "river_level_m": 30.11,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 14.314742623045042,
+    "temp_c": 32.1,
+    "humidity_pct": 88.0,
+    "wind_kph": 25.3,
+    "river_level_m": 29.85,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 24.031485394308582,
+    "temp_c": 32.5,
+    "humidity_pct": 84.1,
+    "wind_kph": 21.7,
+    "river_level_m": 29.45,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 13.67856449668216,
+    "temp_c": 30.5,
+    "humidity_pct": 79.8,
+    "wind_kph": 23.5,
+    "river_level_m": 29.31,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 15.661056871784647,
+    "temp_c": 31.9,
+    "humidity_pct": 82.6,
+    "wind_kph": 25.9,
+    "river_level_m": 29.21,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 19.553853080520813,
+    "temp_c": 33.8,
+    "humidity_pct": 88.5,
+    "wind_kph": 16.4,
+    "river_level_m": 29.2,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 5.902975053157665,
+    "temp_c": 31.1,
+    "humidity_pct": 79.6,
+    "wind_kph": 25.1,
+    "river_level_m": 29.44,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 5.624319596535198,
+    "temp_c": 31.1,
+    "humidity_pct": 78.6,
+    "wind_kph": 18.5,
+    "river_level_m": 29.81,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 18.15861485073109,
+    "temp_c": 33.8,
+    "humidity_pct": 84.5,
+    "wind_kph": 19.6,
+    "river_level_m": 29.35,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 29.51071432797534,
+    "temp_c": 31.5,
+    "humidity_pct": 87.5,
+    "wind_kph": 13.1,
+    "river_level_m": 29.17,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 23.514388210127553,
+    "temp_c": 30.1,
+    "humidity_pct": 74.9,
+    "wind_kph": 18.9,
+    "river_level_m": 29.66,
+    "river_trend": "rising",
+    "source": "simulated"
+   }
+  ],
+  "samastipur": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 10.608553971513007,
+    "temp_c": 29.5,
+    "humidity_pct": 89.6,
+    "wind_kph": 20.0,
+    "river_level_m": 45.88,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 5.9431436294670785,
+    "temp_c": 30.6,
+    "humidity_pct": 71.8,
+    "wind_kph": 10.1,
+    "river_level_m": 45.52,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 13.282464313009637,
+    "temp_c": 29.3,
+    "humidity_pct": 82.0,
+    "wind_kph": 20.5,
+    "river_level_m": 45.41,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 19.856889494512654,
+    "temp_c": 29.5,
+    "humidity_pct": 80.4,
+    "wind_kph": 23.8,
+    "river_level_m": 45.55,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 0.0,
+    "temp_c": 30.3,
+    "humidity_pct": 76.2,
+    "wind_kph": 18.7,
+    "river_level_m": 45.47,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 12.037700784951769,
+    "temp_c": 31.7,
+    "humidity_pct": 81.1,
+    "wind_kph": 26.7,
+    "river_level_m": 45.68,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 0.0,
+    "temp_c": 30.5,
+    "humidity_pct": 86.6,
+    "wind_kph": 21.3,
+    "river_level_m": 45.75,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 0.0,
+    "temp_c": 31.7,
+    "humidity_pct": 92.7,
+    "wind_kph": 23.0,
+    "river_level_m": 45.63,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 12.691600023391551,
+    "temp_c": 29.5,
+    "humidity_pct": 84.0,
+    "wind_kph": 23.6,
+    "river_level_m": 45.57,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 7.062326378108984,
+    "temp_c": 30.1,
+    "humidity_pct": 82.2,
+    "wind_kph": 18.1,
+    "river_level_m": 45.62,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 6.122197308613411,
+    "temp_c": 30.9,
+    "humidity_pct": 83.2,
+    "wind_kph": 22.9,
+    "river_level_m": 44.61,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 6.203068819647731,
+    "temp_c": 30.6,
+    "humidity_pct": 80.9,
+    "wind_kph": 27.7,
+    "river_level_m": 45.43,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 12.896392272552395,
+    "temp_c": 31.5,
+    "humidity_pct": 76.9,
+    "wind_kph": 15.3,
+    "river_level_m": 45.46,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 1.8444026724036515,
+    "temp_c": 30.5,
+    "humidity_pct": 78.5,
+    "wind_kph": 32.5,
+    "river_level_m": 45.59,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 2.4268638682088666,
+    "temp_c": 32.2,
+    "humidity_pct": 79.6,
+    "wind_kph": 25.5,
+    "river_level_m": 45.73,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 0.0,
+    "temp_c": 31.4,
+    "humidity_pct": 84.3,
+    "wind_kph": 13.7,
+    "river_level_m": 44.98,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 0.47417670821664704,
+    "temp_c": 31.1,
+    "humidity_pct": 89.3,
+    "wind_kph": 10.3,
+    "river_level_m": 45.84,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 2.805448718787063,
+    "temp_c": 31.4,
+    "humidity_pct": 74.3,
+    "wind_kph": 28.4,
+    "river_level_m": 46.19,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 14.952072919206465,
+    "temp_c": 30.2,
+    "humidity_pct": 85.5,
+    "wind_kph": 12.3,
+    "river_level_m": 45.57,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 9.717911815699875,
+    "temp_c": 31.7,
+    "humidity_pct": 81.0,
+    "wind_kph": 17.9,
+    "river_level_m": 45.79,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 9.355928866961243,
+    "temp_c": 30.8,
+    "humidity_pct": 84.0,
+    "wind_kph": 19.4,
+    "river_level_m": 45.34,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 0.0,
+    "temp_c": 32.4,
+    "humidity_pct": 85.1,
+    "wind_kph": 20.5,
+    "river_level_m": 45.83,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 5.9658944514158545,
+    "temp_c": 31.1,
+    "humidity_pct": 79.9,
+    "wind_kph": 27.1,
+    "river_level_m": 44.82,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 0.0,
+    "temp_c": 29.9,
+    "humidity_pct": 74.0,
+    "wind_kph": 27.3,
+    "river_level_m": 45.29,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 4.114726168475713,
+    "temp_c": 28.3,
+    "humidity_pct": 74.7,
+    "wind_kph": 21.7,
+    "river_level_m": 45.86,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 18.628039941370155,
+    "temp_c": 29.2,
+    "humidity_pct": 80.1,
+    "wind_kph": 19.0,
+    "river_level_m": 46.06,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 12.685338146602032,
+    "temp_c": 29.8,
+    "humidity_pct": 78.9,
+    "wind_kph": 20.4,
+    "river_level_m": 46.22,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 0.4446461788728078,
+    "temp_c": 31.4,
+    "humidity_pct": 82.3,
+    "wind_kph": 25.7,
+    "river_level_m": 46.05,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 11.552805939344111,
+    "temp_c": 29.0,
+    "humidity_pct": 80.9,
+    "wind_kph": 24.9,
+    "river_level_m": 45.71,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 17.506470397504266,
+    "temp_c": 30.2,
+    "humidity_pct": 93.6,
+    "wind_kph": 31.0,
+    "river_level_m": 45.35,
+    "river_trend": "falling",
+    "source": "simulated"
+   }
+  ],
+  "sitamarhi": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 11.646064079586303,
+    "temp_c": 30.7,
+    "humidity_pct": 83.5,
+    "wind_kph": 3.5,
+    "river_level_m": 68.28,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 14.61162309690859,
+    "temp_c": 30.1,
+    "humidity_pct": 74.9,
+    "wind_kph": 19.1,
+    "river_level_m": 67.48,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 9.851192621484895,
+    "temp_c": 33.4,
+    "humidity_pct": 65.3,
+    "wind_kph": 16.7,
+    "river_level_m": 68.07,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 26.297767544500555,
+    "temp_c": 31.8,
+    "humidity_pct": 79.4,
+    "wind_kph": 12.0,
+    "river_level_m": 68.03,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 20.39993099925058,
+    "temp_c": 29.7,
+    "humidity_pct": 69.0,
+    "wind_kph": 14.1,
+    "river_level_m": 67.72,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 14.597413585001101,
+    "temp_c": 32.3,
+    "humidity_pct": 70.0,
+    "wind_kph": 16.3,
+    "river_level_m": 67.69,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 23.526706736006737,
+    "temp_c": 31.7,
+    "humidity_pct": 75.9,
+    "wind_kph": 10.1,
+    "river_level_m": 67.61,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 10.064083796721018,
+    "temp_c": 31.4,
+    "humidity_pct": 61.2,
+    "wind_kph": 16.7,
+    "river_level_m": 68.35,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 23.17523644452274,
+    "temp_c": 33.4,
+    "humidity_pct": 82.4,
+    "wind_kph": 9.8,
+    "river_level_m": 68.43,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 23.64855902706197,
+    "temp_c": 31.1,
+    "humidity_pct": 76.3,
+    "wind_kph": 17.6,
+    "river_level_m": 68.39,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 22.768073024290814,
+    "temp_c": 31.3,
+    "humidity_pct": 72.1,
+    "wind_kph": 24.2,
+    "river_level_m": 67.62,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 12.463720624423042,
+    "temp_c": 30.9,
+    "humidity_pct": 78.6,
+    "wind_kph": 18.7,
+    "river_level_m": 67.18,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 30.34441155653004,
+    "temp_c": 32.5,
+    "humidity_pct": 72.3,
+    "wind_kph": 14.5,
+    "river_level_m": 68.5,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 20.167471584176873,
+    "temp_c": 31.9,
+    "humidity_pct": 75.8,
+    "wind_kph": 8.9,
+    "river_level_m": 68.8,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 22.365755373773567,
+    "temp_c": 32.6,
+    "humidity_pct": 60.2,
+    "wind_kph": 10.0,
+    "river_level_m": 68.57,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 15.557023564084624,
+    "temp_c": 34.5,
+    "humidity_pct": 75.7,
+    "wind_kph": 6.3,
+    "river_level_m": 68.06,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 5.294835847337572,
+    "temp_c": 30.2,
+    "humidity_pct": 71.1,
+    "wind_kph": 14.7,
+    "river_level_m": 67.64,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 8.45296044135741,
+    "temp_c": 35.1,
+    "humidity_pct": 61.4,
+    "wind_kph": 24.9,
+    "river_level_m": 67.29,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 4.941455673480464,
+    "temp_c": 32.4,
+    "humidity_pct": 59.2,
+    "wind_kph": 13.7,
+    "river_level_m": 68.22,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 14.585204568408074,
+    "temp_c": 31.3,
+    "humidity_pct": 69.5,
+    "wind_kph": 13.0,
+    "river_level_m": 67.76,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 22.75678259480572,
+    "temp_c": 33.9,
+    "humidity_pct": 89.3,
+    "wind_kph": 15.9,
+    "river_level_m": 67.79,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 13.692203722638805,
+    "temp_c": 32.0,
+    "humidity_pct": 80.6,
+    "wind_kph": 16.4,
+    "river_level_m": 68.02,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 9.969320647406189,
+    "temp_c": 32.4,
+    "humidity_pct": 78.2,
+    "wind_kph": 5.2,
+    "river_level_m": 67.98,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 28.57271002588959,
+    "temp_c": 32.4,
+    "humidity_pct": 73.8,
+    "wind_kph": 12.2,
+    "river_level_m": 68.36,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 29.028003703993804,
+    "temp_c": 31.8,
+    "humidity_pct": 78.0,
+    "wind_kph": 11.2,
+    "river_level_m": 67.97,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 15.356569870144327,
+    "temp_c": 32.3,
+    "humidity_pct": 65.1,
+    "wind_kph": 16.9,
+    "river_level_m": 68.06,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 7.198178706250049,
+    "temp_c": 33.0,
+    "humidity_pct": 79.9,
+    "wind_kph": 9.1,
+    "river_level_m": 68.48,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 10.515976838039919,
+    "temp_c": 32.2,
+    "humidity_pct": 72.4,
+    "wind_kph": 11.4,
+    "river_level_m": 68.11,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 8.201159200352256,
+    "temp_c": 32.0,
+    "humidity_pct": 78.3,
+    "wind_kph": 24.4,
+    "river_level_m": 68.4,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 14.589970625225495,
+    "temp_c": 28.6,
+    "humidity_pct": 57.5,
+    "wind_kph": 16.8,
+    "river_level_m": 67.78,
+    "river_trend": "steady",
+    "source": "simulated"
+   }
+  ],
+  "lucknow": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 9.76190451345974,
+    "temp_c": 30.4,
+    "humidity_pct": 75.5,
+    "wind_kph": 26.3,
+    "river_level_m": 107.99,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 0.0,
+    "temp_c": 30.4,
+    "humidity_pct": 73.1,
+    "wind_kph": 13.0,
+    "river_level_m": 108.56,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 18.24638010448911,
+    "temp_c": 32.2,
+    "humidity_pct": 73.6,
+    "wind_kph": 10.9,
+    "river_level_m": 107.55,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 0.0,
+    "temp_c": 33.2,
+    "humidity_pct": 73.7,
+    "wind_kph": 16.0,
+    "river_level_m": 108.12,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 10.559561857623178,
+    "temp_c": 30.5,
+    "humidity_pct": 63.8,
+    "wind_kph": 21.6,
+    "river_level_m": 108.47,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 0.0,
+    "temp_c": 29.9,
+    "humidity_pct": 76.5,
+    "wind_kph": 13.1,
+    "river_level_m": 107.68,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 1.4037719898252714,
+    "temp_c": 31.5,
+    "humidity_pct": 59.3,
+    "wind_kph": 26.4,
+    "river_level_m": 108.11,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 17.44498364390749,
+    "temp_c": 31.2,
+    "humidity_pct": 73.2,
+    "wind_kph": 25.2,
+    "river_level_m": 107.69,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 8.276782763364904,
+    "temp_c": 30.1,
+    "humidity_pct": 68.8,
+    "wind_kph": 12.7,
+    "river_level_m": 108.37,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 13.028943985280561,
+    "temp_c": 31.4,
+    "humidity_pct": 74.7,
+    "wind_kph": 14.9,
+    "river_level_m": 108.24,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 15.86608413706492,
+    "temp_c": 30.9,
+    "humidity_pct": 73.6,
+    "wind_kph": 0,
+    "river_level_m": 108.39,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 2.9895446191944135,
+    "temp_c": 30.5,
+    "humidity_pct": 71.6,
+    "wind_kph": 16.4,
+    "river_level_m": 107.9,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 4.296072850374849,
+    "temp_c": 31.8,
+    "humidity_pct": 76.6,
+    "wind_kph": 28.8,
+    "river_level_m": 108.11,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 12.439404857948755,
+    "temp_c": 30.9,
+    "humidity_pct": 74.6,
+    "wind_kph": 19.4,
+    "river_level_m": 107.21,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 9.847693842945088,
+    "temp_c": 32.7,
+    "humidity_pct": 80.1,
+    "wind_kph": 28.6,
+    "river_level_m": 108.12,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 18.617454962944187,
+    "temp_c": 29.6,
+    "humidity_pct": 73.8,
+    "wind_kph": 25.7,
+    "river_level_m": 107.68,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 0.0,
+    "temp_c": 29.9,
+    "humidity_pct": 62.7,
+    "wind_kph": 12.5,
+    "river_level_m": 108.02,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 10.05810576199962,
+    "temp_c": 31.8,
+    "humidity_pct": 70.1,
+    "wind_kph": 15.9,
+    "river_level_m": 108.87,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 16.452206715016352,
+    "temp_c": 30.8,
+    "humidity_pct": 70.8,
+    "wind_kph": 23.7,
+    "river_level_m": 107.41,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 13.36694072668991,
+    "temp_c": 32.9,
+    "humidity_pct": 64.9,
+    "wind_kph": 18.8,
+    "river_level_m": 108.6,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 14.04906692068327,
+    "temp_c": 31.9,
+    "humidity_pct": 73.6,
+    "wind_kph": 15.0,
+    "river_level_m": 107.68,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 7.6074708524023595,
+    "temp_c": 29.3,
+    "humidity_pct": 62.7,
+    "wind_kph": 24.5,
+    "river_level_m": 108.68,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 15.63515336782788,
+    "temp_c": 33.7,
+    "humidity_pct": 79.3,
+    "wind_kph": 18.3,
+    "river_level_m": 107.85,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 27.069266722415406,
+    "temp_c": 31.0,
+    "humidity_pct": 71.8,
+    "wind_kph": 17.1,
+    "river_level_m": 108.1,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 5.188568307052726,
+    "temp_c": 30.1,
+    "humidity_pct": 71.9,
+    "wind_kph": 22.5,
+    "river_level_m": 107.82,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 15.533937772284341,
+    "temp_c": 32.1,
+    "humidity_pct": 82.1,
+    "wind_kph": 14.1,
+    "river_level_m": 108.34,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 7.5310017265977365,
+    "temp_c": 31.6,
+    "humidity_pct": 65.8,
+    "wind_kph": 5.4,
+    "river_level_m": 108.29,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 9.770288632355662,
+    "temp_c": 31.7,
+    "humidity_pct": 80.9,
+    "wind_kph": 16.7,
+    "river_level_m": 108.96,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 0.24097075120173983,
+    "temp_c": 32.6,
+    "humidity_pct": 72.8,
+    "wind_kph": 22.5,
+    "river_level_m": 108.2,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 14.889994125516111,
+    "temp_c": 32.1,
+    "humidity_pct": 67.8,
+    "wind_kph": 23.6,
+    "river_level_m": 108.11,
+    "river_trend": "falling",
+    "source": "simulated"
+   }
+  ],
+  "gorakhpur": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 12.849704754655841,
+    "temp_c": 32.3,
+    "humidity_pct": 75.2,
+    "wind_kph": 15.2,
+    "river_level_m": 74.8,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 8.782494509513919,
+    "temp_c": 28.1,
+    "humidity_pct": 74.8,
+    "wind_kph": 14.3,
+    "river_level_m": 74.33,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 0.0,
+    "temp_c": 32.1,
+    "humidity_pct": 75.3,
+    "wind_kph": 9.1,
+    "river_level_m": 74.61,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 0.0,
+    "temp_c": 30.0,
+    "humidity_pct": 72.4,
+    "wind_kph": 23.7,
+    "river_level_m": 74.06,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 0.0,
+    "temp_c": 32.0,
+    "humidity_pct": 66.4,
+    "wind_kph": 21.2,
+    "river_level_m": 74.4,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 1.0451187371049473,
+    "temp_c": 29.9,
+    "humidity_pct": 60.2,
+    "wind_kph": 16.8,
+    "river_level_m": 74.49,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 20.13491839864642,
+    "temp_c": 29.1,
+    "humidity_pct": 69.7,
+    "wind_kph": 21.3,
+    "river_level_m": 74.5,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 7.639604417175676,
+    "temp_c": 29.8,
+    "humidity_pct": 61.7,
+    "wind_kph": 9.5,
+    "river_level_m": 74.96,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 8.894466832574285,
+    "temp_c": 29.1,
+    "humidity_pct": 63.2,
+    "wind_kph": 10.8,
+    "river_level_m": 74.48,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 12.617595915068696,
+    "temp_c": 29.1,
+    "humidity_pct": 65.9,
+    "wind_kph": 5.3,
+    "river_level_m": 74.55,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 17.009485553417647,
+    "temp_c": 31.6,
+    "humidity_pct": 71.9,
+    "wind_kph": 6.2,
+    "river_level_m": 74.48,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 19.177490952023998,
+    "temp_c": 30.3,
+    "humidity_pct": 72.1,
+    "wind_kph": 11.2,
+    "river_level_m": 74.69,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 9.167864595144673,
+    "temp_c": 32.3,
+    "humidity_pct": 69.1,
+    "wind_kph": 16.9,
+    "river_level_m": 74.01,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 14.252919475428165,
+    "temp_c": 31.1,
+    "humidity_pct": 69.8,
+    "wind_kph": 27.8,
+    "river_level_m": 74.86,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 21.736825554618214,
+    "temp_c": 31.0,
+    "humidity_pct": 62.8,
+    "wind_kph": 15.0,
+    "river_level_m": 74.23,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 7.197162306145679,
+    "temp_c": 28.9,
+    "humidity_pct": 75.4,
+    "wind_kph": 12.8,
+    "river_level_m": 74.28,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 0.06824571302795057,
+    "temp_c": 30.0,
+    "humidity_pct": 73.8,
+    "wind_kph": 13.3,
+    "river_level_m": 74.71,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 10.211542366119385,
+    "temp_c": 30.5,
+    "humidity_pct": 60.1,
+    "wind_kph": 21.6,
+    "river_level_m": 74.01,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 0.0,
+    "temp_c": 33.6,
+    "humidity_pct": 69.6,
+    "wind_kph": 16.0,
+    "river_level_m": 75.12,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 0.0,
+    "temp_c": 28.5,
+    "humidity_pct": 75.3,
+    "wind_kph": 13.9,
+    "river_level_m": 74.11,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 10.119168937552251,
+    "temp_c": 30.2,
+    "humidity_pct": 74.8,
+    "wind_kph": 11.2,
+    "river_level_m": 74.44,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 3.6973920597282315,
+    "temp_c": 34.2,
+    "humidity_pct": 70.3,
+    "wind_kph": 17.5,
+    "river_level_m": 74.46,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 0.0,
+    "temp_c": 33.2,
+    "humidity_pct": 75.1,
+    "wind_kph": 21.2,
+    "river_level_m": 74.54,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 4.941778517866076,
+    "temp_c": 28.5,
+    "humidity_pct": 71.6,
+    "wind_kph": 20.8,
+    "river_level_m": 75.36,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 24.81194111806747,
+    "temp_c": 28.6,
+    "humidity_pct": 69.8,
+    "wind_kph": 18.1,
+    "river_level_m": 74.96,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 19.545984450969296,
+    "temp_c": 29.4,
+    "humidity_pct": 85.8,
+    "wind_kph": 17.4,
+    "river_level_m": 74.45,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 6.387099829833254,
+    "temp_c": 31.3,
+    "humidity_pct": 71.7,
+    "wind_kph": 12.7,
+    "river_level_m": 74.12,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 10.200212003067778,
+    "temp_c": 28.3,
+    "humidity_pct": 68.3,
+    "wind_kph": 23.7,
+    "river_level_m": 74.22,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 0.0,
+    "temp_c": 31.4,
+    "humidity_pct": 80.0,
+    "wind_kph": 15.4,
+    "river_level_m": 74.47,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 0.0,
+    "temp_c": 31.7,
+    "humidity_pct": 76.6,
+    "wind_kph": 19.8,
+    "river_level_m": 74.79,
+    "river_trend": "rising",
+    "source": "simulated"
+   }
+  ],
+  "varanasi": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 0.0,
+    "temp_c": 29.7,
+    "humidity_pct": 83.6,
+    "wind_kph": 9.3,
+    "river_level_m": 61.18,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 13.315010642117224,
+    "temp_c": 30.9,
+    "humidity_pct": 77.6,
+    "wind_kph": 13.7,
+    "river_level_m": 62.17,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 4.4266896959009845,
+    "temp_c": 31.8,
+    "humidity_pct": 75.6,
+    "wind_kph": 21.7,
+    "river_level_m": 61.75,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 10.663424720686596,
+    "temp_c": 31.9,
+    "humidity_pct": 74.9,
+    "wind_kph": 24.4,
+    "river_level_m": 61.18,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 12.482233915551898,
+    "temp_c": 30.9,
+    "humidity_pct": 76.8,
+    "wind_kph": 10.6,
+    "river_level_m": 62.24,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 9.262133238714913,
+    "temp_c": 32.0,
+    "humidity_pct": 85.3,
+    "wind_kph": 12.2,
+    "river_level_m": 62.01,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 5.3193578204836225,
+    "temp_c": 31.7,
+    "humidity_pct": 85.9,
+    "wind_kph": 8.6,
+    "river_level_m": 61.28,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 1.3436396667519803,
+    "temp_c": 30.2,
+    "humidity_pct": 75.2,
+    "wind_kph": 3.9,
+    "river_level_m": 61.84,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 14.957322325609294,
+    "temp_c": 30.3,
+    "humidity_pct": 81.0,
+    "wind_kph": 9.7,
+    "river_level_m": 61.96,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 0.0,
+    "temp_c": 31.2,
+    "humidity_pct": 76.4,
+    "wind_kph": 5.0,
+    "river_level_m": 62.34,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 4.211260009874746,
+    "temp_c": 32.8,
+    "humidity_pct": 79.5,
+    "wind_kph": 0.4,
+    "river_level_m": 61.22,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 0.0,
+    "temp_c": 31.1,
+    "humidity_pct": 79.6,
+    "wind_kph": 6.2,
+    "river_level_m": 61.62,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 0.07046546439896417,
+    "temp_c": 29.4,
+    "humidity_pct": 87.9,
+    "wind_kph": 23.3,
+    "river_level_m": 61.31,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 21.067696134847544,
+    "temp_c": 31.9,
+    "humidity_pct": 83.8,
+    "wind_kph": 11.9,
+    "river_level_m": 61.34,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 13.886546111887586,
+    "temp_c": 33.0,
+    "humidity_pct": 78.4,
+    "wind_kph": 6.2,
+    "river_level_m": 61.81,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 0.0,
+    "temp_c": 33.7,
+    "humidity_pct": 68.8,
+    "wind_kph": 15.9,
+    "river_level_m": 61.32,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 12.19100119407041,
+    "temp_c": 32.3,
+    "humidity_pct": 74.1,
+    "wind_kph": 20.5,
+    "river_level_m": 62.27,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 0.0,
+    "temp_c": 31.3,
+    "humidity_pct": 80.1,
+    "wind_kph": 17.4,
+    "river_level_m": 62.31,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 7.557036948446782,
+    "temp_c": 31.0,
+    "humidity_pct": 89.8,
+    "wind_kph": 21.2,
+    "river_level_m": 62.5,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 0.0,
+    "temp_c": 31.0,
+    "humidity_pct": 80.1,
+    "wind_kph": 7.1,
+    "river_level_m": 61.95,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 2.4186372034077297,
+    "temp_c": 33.9,
+    "humidity_pct": 80.1,
+    "wind_kph": 3.7,
+    "river_level_m": 61.33,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 14.449087355072765,
+    "temp_c": 33.5,
+    "humidity_pct": 72.5,
+    "wind_kph": 15.3,
+    "river_level_m": 61.84,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 5.778331365487929,
+    "temp_c": 31.2,
+    "humidity_pct": 84.3,
+    "wind_kph": 0,
+    "river_level_m": 61.44,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 17.40913351039547,
+    "temp_c": 30.2,
+    "humidity_pct": 72.8,
+    "wind_kph": 24.5,
+    "river_level_m": 61.96,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 8.733188647163654,
+    "temp_c": 34.5,
+    "humidity_pct": 77.2,
+    "wind_kph": 9.5,
+    "river_level_m": 61.64,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 16.64623211072474,
+    "temp_c": 32.3,
+    "humidity_pct": 88.1,
+    "wind_kph": 11.6,
+    "river_level_m": 62.77,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 0.0,
+    "temp_c": 30.8,
+    "humidity_pct": 82.5,
+    "wind_kph": 17.5,
+    "river_level_m": 62.22,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 4.243957524060209,
+    "temp_c": 30.8,
+    "humidity_pct": 79.3,
+    "wind_kph": 15.1,
+    "river_level_m": 62.51,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 21.74486594490927,
+    "temp_c": 29.1,
+    "humidity_pct": 79.7,
+    "wind_kph": 4.0,
+    "river_level_m": 62.01,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 2.992633816233114,
+    "temp_c": 32.1,
+    "humidity_pct": 83.9,
+    "wind_kph": 20.3,
+    "river_level_m": 62.4,
+    "river_trend": "rising",
+    "source": "simulated"
+   }
+  ],
+  "guwahati": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 12.148282534977323,
+    "temp_c": 30.4,
+    "humidity_pct": 75.7,
+    "wind_kph": 0,
+    "river_level_m": 49.76,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 18.91520619195675,
+    "temp_c": 29.1,
+    "humidity_pct": 69.8,
+    "wind_kph": 9.3,
+    "river_level_m": 49.35,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 34.24945486065917,
+    "temp_c": 25.1,
+    "humidity_pct": 74.6,
+    "wind_kph": 10.3,
+    "river_level_m": 49.09,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 4.726149491974427,
+    "temp_c": 32.8,
+    "humidity_pct": 66.7,
+    "wind_kph": 7.7,
+    "river_level_m": 49.73,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 0.0,
+    "temp_c": 32.5,
+    "humidity_pct": 79.7,
+    "wind_kph": 21.7,
+    "river_level_m": 49.6,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 19.01430294164559,
+    "temp_c": 29.9,
+    "humidity_pct": 76.3,
+    "wind_kph": 8.8,
+    "river_level_m": 48.67,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 13.998167050493056,
+    "temp_c": 28.2,
+    "humidity_pct": 75.5,
+    "wind_kph": 9.3,
+    "river_level_m": 49.92,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 12.116632711279642,
+    "temp_c": 28.8,
+    "humidity_pct": 78.6,
+    "wind_kph": 0.2,
+    "river_level_m": 50.01,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 6.722217997637038,
+    "temp_c": 30.8,
+    "humidity_pct": 68.6,
+    "wind_kph": 20.4,
+    "river_level_m": 49.21,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 11.534938085476213,
+    "temp_c": 29.1,
+    "humidity_pct": 80.7,
+    "wind_kph": 7.9,
+    "river_level_m": 49.9,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 12.287859474009615,
+    "temp_c": 29.6,
+    "humidity_pct": 71.0,
+    "wind_kph": 7.3,
+    "river_level_m": 49.5,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 29.68973763381981,
+    "temp_c": 29.0,
+    "humidity_pct": 83.5,
+    "wind_kph": 10.2,
+    "river_level_m": 50.08,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 12.909856943924268,
+    "temp_c": 30.2,
+    "humidity_pct": 75.4,
+    "wind_kph": 3.3,
+    "river_level_m": 49.54,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 13.5343285371911,
+    "temp_c": 30.3,
+    "humidity_pct": 78.0,
+    "wind_kph": 24.6,
+    "river_level_m": 49.61,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 12.328921049805063,
+    "temp_c": 29.2,
+    "humidity_pct": 76.4,
+    "wind_kph": 4.7,
+    "river_level_m": 49.42,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 8.36588265828103,
+    "temp_c": 29.0,
+    "humidity_pct": 82.4,
+    "wind_kph": 0,
+    "river_level_m": 49.91,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 28.90018979991583,
+    "temp_c": 27.2,
+    "humidity_pct": 79.1,
+    "wind_kph": 6.5,
+    "river_level_m": 49.49,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 13.539949727142824,
+    "temp_c": 29.0,
+    "humidity_pct": 76.1,
+    "wind_kph": 0.6,
+    "river_level_m": 49.74,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 11.09999875793477,
+    "temp_c": 31.1,
+    "humidity_pct": 73.8,
+    "wind_kph": 15.4,
+    "river_level_m": 49.08,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 20.540940472713874,
+    "temp_c": 29.8,
+    "humidity_pct": 66.3,
+    "wind_kph": 8.4,
+    "river_level_m": 49.56,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 19.895240330948724,
+    "temp_c": 28.3,
+    "humidity_pct": 84.8,
+    "wind_kph": 14.7,
+    "river_level_m": 49.43,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 19.186317398771315,
+    "temp_c": 29.1,
+    "humidity_pct": 66.8,
+    "wind_kph": 13.5,
+    "river_level_m": 49.84,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 23.333499172188546,
+    "temp_c": 29.8,
+    "humidity_pct": 76.8,
+    "wind_kph": 8.8,
+    "river_level_m": 48.89,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 6.481089235643529,
+    "temp_c": 27.2,
+    "humidity_pct": 82.5,
+    "wind_kph": 0.0,
+    "river_level_m": 49.53,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 7.114299957514961,
+    "temp_c": 30.6,
+    "humidity_pct": 73.3,
+    "wind_kph": 0,
+    "river_level_m": 50.21,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 10.341993349643872,
+    "temp_c": 31.6,
+    "humidity_pct": 66.9,
+    "wind_kph": 8.4,
+    "river_level_m": 49.73,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 0.0,
+    "temp_c": 29.4,
+    "humidity_pct": 76.9,
+    "wind_kph": 8.6,
+    "river_level_m": 49.42,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 30.20294417921042,
+    "temp_c": 26.6,
+    "humidity_pct": 79.5,
+    "wind_kph": 7.2,
+    "river_level_m": 49.29,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 23.383637605961383,
+    "temp_c": 31.0,
+    "humidity_pct": 70.8,
+    "wind_kph": 7.8,
+    "river_level_m": 49.71,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 20.5860591792712,
+    "temp_c": 27.7,
+    "humidity_pct": 83.2,
+    "wind_kph": 11.7,
+    "river_level_m": 49.58,
+    "river_trend": "steady",
+    "source": "simulated"
+   }
+  ],
+  "dibrugarh": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 15.516692603024312,
+    "temp_c": 30.1,
+    "humidity_pct": 72.0,
+    "wind_kph": 16.1,
+    "river_level_m": 103.1,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 7.401472430263972,
+    "temp_c": 29.4,
+    "humidity_pct": 78.3,
+    "wind_kph": 0.6,
+    "river_level_m": 103.43,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 10.2530087515363,
+    "temp_c": 31.4,
+    "humidity_pct": 89.2,
+    "wind_kph": 12.5,
+    "river_level_m": 103.23,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 19.733862508475774,
+    "temp_c": 33.7,
+    "humidity_pct": 74.3,
+    "wind_kph": 0,
+    "river_level_m": 102.71,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 4.669552431119481,
+    "temp_c": 30.6,
+    "humidity_pct": 79.2,
+    "wind_kph": 14.3,
+    "river_level_m": 102.33,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 9.21113464511324,
+    "temp_c": 31.2,
+    "humidity_pct": 80.5,
+    "wind_kph": 13.8,
+    "river_level_m": 102.87,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 14.541062295581579,
+    "temp_c": 34.0,
+    "humidity_pct": 90.0,
+    "wind_kph": 15.7,
+    "river_level_m": 103.13,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 3.323842502223785,
+    "temp_c": 31.7,
+    "humidity_pct": 90.8,
+    "wind_kph": 3.4,
+    "river_level_m": 102.31,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 3.893267229113693,
+    "temp_c": 31.9,
+    "humidity_pct": 75.8,
+    "wind_kph": 5.4,
+    "river_level_m": 103.28,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 23.17450693493746,
+    "temp_c": 35.3,
+    "humidity_pct": 71.5,
+    "wind_kph": 6.6,
+    "river_level_m": 102.81,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 4.23103814742406,
+    "temp_c": 32.6,
+    "humidity_pct": 76.4,
+    "wind_kph": 11.2,
+    "river_level_m": 103.08,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 0.9244304997162018,
+    "temp_c": 32.3,
+    "humidity_pct": 82.5,
+    "wind_kph": 9.0,
+    "river_level_m": 103.19,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 23.54273056742759,
+    "temp_c": 32.2,
+    "humidity_pct": 77.0,
+    "wind_kph": 15.0,
+    "river_level_m": 102.8,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 23.516027865673315,
+    "temp_c": 31.9,
+    "humidity_pct": 74.0,
+    "wind_kph": 16.9,
+    "river_level_m": 102.11,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 37.35551470124339,
+    "temp_c": 29.2,
+    "humidity_pct": 77.5,
+    "wind_kph": 3.5,
+    "river_level_m": 103.04,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 14.187855996526226,
+    "temp_c": 31.2,
+    "humidity_pct": 91.7,
+    "wind_kph": 10.9,
+    "river_level_m": 103.13,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 19.950914968112784,
+    "temp_c": 30.9,
+    "humidity_pct": 85.6,
+    "wind_kph": 8.1,
+    "river_level_m": 103.09,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 19.645321436037676,
+    "temp_c": 33.5,
+    "humidity_pct": 78.1,
+    "wind_kph": 8.1,
+    "river_level_m": 103.32,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 33.05376471236768,
+    "temp_c": 32.2,
+    "humidity_pct": 80.7,
+    "wind_kph": 14.2,
+    "river_level_m": 103.37,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 26.176506642830564,
+    "temp_c": 34.3,
+    "humidity_pct": 79.1,
+    "wind_kph": 9.5,
+    "river_level_m": 103.21,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 5.052226397743423,
+    "temp_c": 30.2,
+    "humidity_pct": 83.9,
+    "wind_kph": 0,
+    "river_level_m": 102.72,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 23.571914214286345,
+    "temp_c": 31.7,
+    "humidity_pct": 78.0,
+    "wind_kph": 9.9,
+    "river_level_m": 103.0,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 17.820197741460262,
+    "temp_c": 32.7,
+    "humidity_pct": 87.7,
+    "wind_kph": 12.7,
+    "river_level_m": 103.03,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 7.532741260461779,
+    "temp_c": 32.9,
+    "humidity_pct": 83.5,
+    "wind_kph": 11.2,
+    "river_level_m": 103.09,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 10.698493386032514,
+    "temp_c": 31.8,
+    "humidity_pct": 75.7,
+    "wind_kph": 5.2,
+    "river_level_m": 102.9,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 27.69602499288961,
+    "temp_c": 31.7,
+    "humidity_pct": 79.9,
+    "wind_kph": 5.7,
+    "river_level_m": 102.16,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 10.293019973206956,
+    "temp_c": 32.4,
+    "humidity_pct": 85.4,
+    "wind_kph": 5.4,
+    "river_level_m": 101.94,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 19.900481073174035,
+    "temp_c": 33.0,
+    "humidity_pct": 74.0,
+    "wind_kph": 10.2,
+    "river_level_m": 102.57,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 14.350225218315977,
+    "temp_c": 32.7,
+    "humidity_pct": 71.5,
+    "wind_kph": 5.3,
+    "river_level_m": 102.44,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 3.7713839491827468,
+    "temp_c": 32.7,
+    "humidity_pct": 85.1,
+    "wind_kph": 11.0,
+    "river_level_m": 102.9,
+    "river_trend": "falling",
+    "source": "simulated"
+   }
+  ],
+  "kolkata": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 22.775965677553188,
+    "temp_c": 27.9,
+    "humidity_pct": 78.3,
+    "wind_kph": 20.2,
+    "river_level_m": 5.41,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 16.652425701693815,
+    "temp_c": 33.4,
+    "humidity_pct": 78.9,
+    "wind_kph": 21.1,
+    "river_level_m": 5.59,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 35.95012559921976,
+    "temp_c": 30.7,
+    "humidity_pct": 71.9,
+    "wind_kph": 15.7,
+    "river_level_m": 5.74,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 24.88811561338982,
+    "temp_c": 29.9,
+    "humidity_pct": 78.0,
+    "wind_kph": 27.2,
+    "river_level_m": 5.64,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 21.543309958594694,
+    "temp_c": 30.6,
+    "humidity_pct": 75.2,
+    "wind_kph": 19.4,
+    "river_level_m": 6.13,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 9.575129815469673,
+    "temp_c": 31.4,
+    "humidity_pct": 85.3,
+    "wind_kph": 19.1,
+    "river_level_m": 5.91,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 9.049030058003407,
+    "temp_c": 31.7,
+    "humidity_pct": 75.1,
+    "wind_kph": 18.9,
+    "river_level_m": 5.29,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 11.788182805108786,
+    "temp_c": 31.4,
+    "humidity_pct": 75.5,
+    "wind_kph": 19.7,
+    "river_level_m": 5.45,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 10.295732743756385,
+    "temp_c": 32.0,
+    "humidity_pct": 67.4,
+    "wind_kph": 18.1,
+    "river_level_m": 5.16,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 13.366257656394893,
+    "temp_c": 29.8,
+    "humidity_pct": 75.7,
+    "wind_kph": 18.2,
+    "river_level_m": 5.01,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 12.304427221330695,
+    "temp_c": 30.7,
+    "humidity_pct": 76.1,
+    "wind_kph": 12.4,
+    "river_level_m": 6.09,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 16.94375845429159,
+    "temp_c": 29.4,
+    "humidity_pct": 77.0,
+    "wind_kph": 13.8,
+    "river_level_m": 4.88,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 12.242320012042375,
+    "temp_c": 32.0,
+    "humidity_pct": 75.9,
+    "wind_kph": 16.6,
+    "river_level_m": 5.68,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 9.108837339163017,
+    "temp_c": 30.9,
+    "humidity_pct": 69.0,
+    "wind_kph": 8.4,
+    "river_level_m": 5.03,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 19.830321726455317,
+    "temp_c": 30.1,
+    "humidity_pct": 66.0,
+    "wind_kph": 20.7,
+    "river_level_m": 5.15,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 21.363934752440592,
+    "temp_c": 32.4,
+    "humidity_pct": 75.2,
+    "wind_kph": 23.6,
+    "river_level_m": 5.05,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 7.827970612396201,
+    "temp_c": 32.9,
+    "humidity_pct": 68.4,
+    "wind_kph": 25.5,
+    "river_level_m": 4.99,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 21.149058079207002,
+    "temp_c": 32.2,
+    "humidity_pct": 81.3,
+    "wind_kph": 15.8,
+    "river_level_m": 5.56,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 24.62849835773153,
+    "temp_c": 33.7,
+    "humidity_pct": 72.5,
+    "wind_kph": 17.6,
+    "river_level_m": 5.82,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 12.021843983336803,
+    "temp_c": 32.2,
+    "humidity_pct": 74.0,
+    "wind_kph": 25.2,
+    "river_level_m": 5.64,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 12.019816896696764,
+    "temp_c": 33.4,
+    "humidity_pct": 77.2,
+    "wind_kph": 11.8,
+    "river_level_m": 5.63,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 12.50985025383898,
+    "temp_c": 32.4,
+    "humidity_pct": 78.6,
+    "wind_kph": 13.6,
+    "river_level_m": 5.34,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 24.381276564798334,
+    "temp_c": 33.3,
+    "humidity_pct": 79.6,
+    "wind_kph": 22.7,
+    "river_level_m": 5.11,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 19.286040280533587,
+    "temp_c": 31.2,
+    "humidity_pct": 84.6,
+    "wind_kph": 15.8,
+    "river_level_m": 5.73,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 6.8579666421604815,
+    "temp_c": 31.8,
+    "humidity_pct": 81.9,
+    "wind_kph": 23.7,
+    "river_level_m": 5.73,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 24.494426171030753,
+    "temp_c": 30.2,
+    "humidity_pct": 75.2,
+    "wind_kph": 26.3,
+    "river_level_m": 4.89,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 14.745549432040919,
+    "temp_c": 32.0,
+    "humidity_pct": 75.5,
+    "wind_kph": 13.0,
+    "river_level_m": 5.92,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 0.0,
+    "temp_c": 33.0,
+    "humidity_pct": 73.3,
+    "wind_kph": 20.1,
+    "river_level_m": 5.34,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 18.75571521725742,
+    "temp_c": 31.7,
+    "humidity_pct": 77.1,
+    "wind_kph": 8.5,
+    "river_level_m": 5.47,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 7.8911325751894426,
+    "temp_c": 35.7,
+    "humidity_pct": 78.7,
+    "wind_kph": 21.0,
+    "river_level_m": 6.13,
+    "river_trend": "steady",
+    "source": "simulated"
+   }
+  ],
+  "howrah": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 1.5578360455623614,
+    "temp_c": 29.7,
+    "humidity_pct": 84.1,
+    "wind_kph": 12.0,
+    "river_level_m": 5.42,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 3.5284271777188674,
+    "temp_c": 32.1,
+    "humidity_pct": 79.0,
+    "wind_kph": 3.3,
+    "river_level_m": 4.99,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 6.355078530768817,
+    "temp_c": 29.0,
+    "humidity_pct": 72.1,
+    "wind_kph": 1.5,
+    "river_level_m": 4.42,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 2.175754191253127,
+    "temp_c": 28.7,
+    "humidity_pct": 79.2,
+    "wind_kph": 3.6,
+    "river_level_m": 5.18,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 13.155971327716745,
+    "temp_c": 29.1,
+    "humidity_pct": 76.3,
+    "wind_kph": 18.9,
+    "river_level_m": 5.36,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 5.795448183224714,
+    "temp_c": 29.7,
+    "humidity_pct": 81.9,
+    "wind_kph": 1.8,
+    "river_level_m": 5.54,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 0.0,
+    "temp_c": 33.7,
+    "humidity_pct": 85.9,
+    "wind_kph": 3.3,
+    "river_level_m": 5.14,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 0.0,
+    "temp_c": 28.0,
+    "humidity_pct": 80.5,
+    "wind_kph": 10.7,
+    "river_level_m": 4.92,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 0.0,
+    "temp_c": 29.5,
+    "humidity_pct": 90.4,
+    "wind_kph": 9.4,
+    "river_level_m": 4.31,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 3.923186370644285,
+    "temp_c": 33.3,
+    "humidity_pct": 84.1,
+    "wind_kph": 16.2,
+    "river_level_m": 4.9,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 9.064707779142221,
+    "temp_c": 30.1,
+    "humidity_pct": 85.2,
+    "wind_kph": 11.5,
+    "river_level_m": 4.98,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 0.0,
+    "temp_c": 28.4,
+    "humidity_pct": 87.4,
+    "wind_kph": 23.4,
+    "river_level_m": 5.11,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 1.1010823939709549,
+    "temp_c": 31.5,
+    "humidity_pct": 88.3,
+    "wind_kph": 19.0,
+    "river_level_m": 4.75,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 11.768647822104342,
+    "temp_c": 28.6,
+    "humidity_pct": 87.3,
+    "wind_kph": 20.1,
+    "river_level_m": 5.31,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 6.762024523181591,
+    "temp_c": 30.9,
+    "humidity_pct": 82.4,
+    "wind_kph": 0,
+    "river_level_m": 5.19,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 4.176507688470734,
+    "temp_c": 31.0,
+    "humidity_pct": 75.5,
+    "wind_kph": 8.5,
+    "river_level_m": 4.18,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 1.820482773626968,
+    "temp_c": 29.9,
+    "humidity_pct": 86.6,
+    "wind_kph": 17.0,
+    "river_level_m": 4.73,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 16.569812614891802,
+    "temp_c": 29.9,
+    "humidity_pct": 80.2,
+    "wind_kph": 12.1,
+    "river_level_m": 4.62,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 0.0,
+    "temp_c": 28.4,
+    "humidity_pct": 87.4,
+    "wind_kph": 10.2,
+    "river_level_m": 5.15,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 0.0,
+    "temp_c": 32.1,
+    "humidity_pct": 81.8,
+    "wind_kph": 15.8,
+    "river_level_m": 4.94,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 10.541031278373051,
+    "temp_c": 29.9,
+    "humidity_pct": 80.8,
+    "wind_kph": 2.6,
+    "river_level_m": 5.51,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 8.53075934552301,
+    "temp_c": 31.4,
+    "humidity_pct": 67.5,
+    "wind_kph": 18.8,
+    "river_level_m": 4.89,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 0.0,
+    "temp_c": 31.1,
+    "humidity_pct": 81.8,
+    "wind_kph": 10.6,
+    "river_level_m": 4.92,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 6.931298906568342,
+    "temp_c": 31.4,
+    "humidity_pct": 78.8,
+    "wind_kph": 9.5,
+    "river_level_m": 5.28,
+    "river_trend": "falling",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 11.542624389940748,
+    "temp_c": 31.2,
+    "humidity_pct": 80.4,
+    "wind_kph": 19.2,
+    "river_level_m": 4.21,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 0.0,
+    "temp_c": 29.3,
+    "humidity_pct": 70.9,
+    "wind_kph": 11.3,
+    "river_level_m": 4.93,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 5.939944095798026,
+    "temp_c": 28.8,
+    "humidity_pct": 81.7,
+    "wind_kph": 2.1,
+    "river_level_m": 5.69,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 0.0,
+    "temp_c": 32.0,
+    "humidity_pct": 82.4,
+    "wind_kph": 11.1,
+    "river_level_m": 5.42,
+    "river_trend": "steady",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 0.0,
+    "temp_c": 33.2,
+    "humidity_pct": 76.5,
+    "wind_kph": 11.3,
+    "river_level_m": 4.77,
+    "river_trend": "rising",
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 0.0,
+    "temp_c": 32.2,
+    "humidity_pct": 81.0,
+    "wind_kph": 15.7,
+    "river_level_m": 4.9,
+    "river_trend": "steady",
+    "source": "simulated"
+   }
+  ],
+  "puri": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 4.047954490880223,
+    "temp_c": 30.8,
+    "humidity_pct": 65.9,
+    "wind_kph": 8.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 15.375827327796777,
+    "temp_c": 31.2,
+    "humidity_pct": 76.5,
+    "wind_kph": 7.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 8.963938420781204,
+    "temp_c": 32.6,
+    "humidity_pct": 85.0,
+    "wind_kph": 12.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 7.448389110276561,
+    "temp_c": 34.3,
+    "humidity_pct": 72.4,
+    "wind_kph": 9.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 0.7260951230657726,
+    "temp_c": 29.3,
+    "humidity_pct": 64.6,
+    "wind_kph": 1.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 8.963868584120918,
+    "temp_c": 30.9,
+    "humidity_pct": 78.0,
+    "wind_kph": 17.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 9.544292844003449,
+    "temp_c": 31.4,
+    "humidity_pct": 75.8,
+    "wind_kph": 10.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 0.0,
+    "temp_c": 32.2,
+    "humidity_pct": 66.5,
+    "wind_kph": 15.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 10.357753188689895,
+    "temp_c": 30.2,
+    "humidity_pct": 69.0,
+    "wind_kph": 16.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 0.11300273305222142,
+    "temp_c": 30.2,
+    "humidity_pct": 77.9,
+    "wind_kph": 22.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 12.357210343508607,
+    "temp_c": 30.4,
+    "humidity_pct": 79.6,
+    "wind_kph": 0.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 0.16048573384877862,
+    "temp_c": 29.8,
+    "humidity_pct": 83.4,
+    "wind_kph": 5.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 8.116126035157619,
+    "temp_c": 32.0,
+    "humidity_pct": 68.1,
+    "wind_kph": 11.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 0.0,
+    "temp_c": 32.1,
+    "humidity_pct": 67.7,
+    "wind_kph": 8.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 6.806954282447393,
+    "temp_c": 31.3,
+    "humidity_pct": 77.4,
+    "wind_kph": 13.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 5.2265107103549955,
+    "temp_c": 29.3,
+    "humidity_pct": 78.0,
+    "wind_kph": 18.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 11.17006104887933,
+    "temp_c": 30.8,
+    "humidity_pct": 81.8,
+    "wind_kph": 11.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 5.18107350987124,
+    "temp_c": 31.0,
+    "humidity_pct": 74.9,
+    "wind_kph": 18.5,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 0.0,
+    "temp_c": 30.7,
+    "humidity_pct": 90.9,
+    "wind_kph": 10.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 14.226443101707222,
+    "temp_c": 31.7,
+    "humidity_pct": 68.0,
+    "wind_kph": 10.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 11.164849963644961,
+    "temp_c": 30.8,
+    "humidity_pct": 66.0,
+    "wind_kph": 24.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 5.357107974235973,
+    "temp_c": 30.5,
+    "humidity_pct": 70.5,
+    "wind_kph": 17.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 0.0,
+    "temp_c": 32.4,
+    "humidity_pct": 74.9,
+    "wind_kph": 14.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 8.86098895998302,
+    "temp_c": 29.3,
+    "humidity_pct": 77.9,
+    "wind_kph": 12.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 3.695755666310391,
+    "temp_c": 31.5,
+    "humidity_pct": 72.0,
+    "wind_kph": 7.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 0.4663778265715077,
+    "temp_c": 33.2,
+    "humidity_pct": 74.1,
+    "wind_kph": 17.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 14.028131535956842,
+    "temp_c": 33.4,
+    "humidity_pct": 67.5,
+    "wind_kph": 5.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 28.21150599644747,
+    "temp_c": 29.5,
+    "humidity_pct": 81.9,
+    "wind_kph": 15.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 100.2,
+    "temp_c": 31.6,
+    "humidity_pct": 95.7,
+    "wind_kph": 97.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 96.8,
+    "temp_c": 33.4,
+    "humidity_pct": 93.3,
+    "wind_kph": 113.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   }
+  ],
+  "nagpur": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 5.207844561770299,
+    "temp_c": 32.3,
+    "humidity_pct": 77.0,
+    "wind_kph": 6.4,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 16.248633451608875,
+    "temp_c": 30.7,
+    "humidity_pct": 73.4,
+    "wind_kph": 14.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 0.0,
+    "temp_c": 31.7,
+    "humidity_pct": 76.2,
+    "wind_kph": 19.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 0.0,
+    "temp_c": 29.2,
+    "humidity_pct": 69.1,
+    "wind_kph": 13.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 3.1667795609558933,
+    "temp_c": 29.1,
+    "humidity_pct": 86.9,
+    "wind_kph": 9.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 1.1611000953965558,
+    "temp_c": 29.9,
+    "humidity_pct": 77.2,
+    "wind_kph": 5.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 10.19923361317449,
+    "temp_c": 30.6,
+    "humidity_pct": 70.2,
+    "wind_kph": 9.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 0.0,
+    "temp_c": 27.6,
+    "humidity_pct": 89.8,
+    "wind_kph": 11.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 20.004928710676225,
+    "temp_c": 33.3,
+    "humidity_pct": 86.7,
+    "wind_kph": 12.4,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 12.817018758456499,
+    "temp_c": 30.1,
+    "humidity_pct": 85.8,
+    "wind_kph": 17.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 2.1851211555287122,
+    "temp_c": 30.2,
+    "humidity_pct": 88.7,
+    "wind_kph": 15.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 0.6393036467981776,
+    "temp_c": 30.0,
+    "humidity_pct": 87.4,
+    "wind_kph": 9.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 1.207298250708532,
+    "temp_c": 30.8,
+    "humidity_pct": 71.0,
+    "wind_kph": 0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 12.43666787630756,
+    "temp_c": 30.4,
+    "humidity_pct": 83.3,
+    "wind_kph": 0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 15.70434169643169,
+    "temp_c": 31.1,
+    "humidity_pct": 83.3,
+    "wind_kph": 8.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 0.0,
+    "temp_c": 31.9,
+    "humidity_pct": 77.9,
+    "wind_kph": 12.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 13.583813063659317,
+    "temp_c": 33.3,
+    "humidity_pct": 87.9,
+    "wind_kph": 5.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 14.367227364611011,
+    "temp_c": 27.4,
+    "humidity_pct": 73.6,
+    "wind_kph": 0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 3.1972364489211307,
+    "temp_c": 30.9,
+    "humidity_pct": 79.6,
+    "wind_kph": 7.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 0.0,
+    "temp_c": 32.0,
+    "humidity_pct": 88.5,
+    "wind_kph": 1.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 8.914915074467155,
+    "temp_c": 32.7,
+    "humidity_pct": 83.5,
+    "wind_kph": 11.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 21.245425213498635,
+    "temp_c": 29.9,
+    "humidity_pct": 79.4,
+    "wind_kph": 0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 17.746634792574184,
+    "temp_c": 30.0,
+    "humidity_pct": 87.5,
+    "wind_kph": 4.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 0.0,
+    "temp_c": 43.8,
+    "humidity_pct": 29.3,
+    "wind_kph": 10.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 0.0,
+    "temp_c": 44.2,
+    "humidity_pct": 28.9,
+    "wind_kph": 2.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 0.0,
+    "temp_c": 44.9,
+    "humidity_pct": 28.4,
+    "wind_kph": 3.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 0.0,
+    "temp_c": 43.6,
+    "humidity_pct": 31.3,
+    "wind_kph": 7.4,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 0.0,
+    "temp_c": 44.6,
+    "humidity_pct": 31.3,
+    "wind_kph": 7.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 0.0,
+    "temp_c": 45.1,
+    "humidity_pct": 33.6,
+    "wind_kph": 16.5,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 0.0,
+    "temp_c": 45.9,
+    "humidity_pct": 32.1,
+    "wind_kph": 2.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   }
+  ],
+  "chennai": [
+   {
+    "date": "2026-09-07",
+    "rain_mm": 3.2612257974663716,
+    "temp_c": 31.7,
+    "humidity_pct": 79.6,
+    "wind_kph": 20.4,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-08",
+    "rain_mm": 0.0,
+    "temp_c": 29.6,
+    "humidity_pct": 81.4,
+    "wind_kph": 6.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-09",
+    "rain_mm": 26.402182904114426,
+    "temp_c": 32.9,
+    "humidity_pct": 72.9,
+    "wind_kph": 19.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-10",
+    "rain_mm": 19.157779123511443,
+    "temp_c": 33.3,
+    "humidity_pct": 62.5,
+    "wind_kph": 20.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-11",
+    "rain_mm": 8.88798194150654,
+    "temp_c": 31.2,
+    "humidity_pct": 83.4,
+    "wind_kph": 30.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-12",
+    "rain_mm": 0.0,
+    "temp_c": 32.7,
+    "humidity_pct": 91.1,
+    "wind_kph": 10.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-13",
+    "rain_mm": 8.849509030217858,
+    "temp_c": 30.6,
+    "humidity_pct": 72.9,
+    "wind_kph": 17.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-14",
+    "rain_mm": 1.5639876427385815,
+    "temp_c": 31.0,
+    "humidity_pct": 74.6,
+    "wind_kph": 12.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-15",
+    "rain_mm": 4.776859893730295,
+    "temp_c": 34.1,
+    "humidity_pct": 66.7,
+    "wind_kph": 12.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-16",
+    "rain_mm": 9.90569933661872,
+    "temp_c": 32.2,
+    "humidity_pct": 65.3,
+    "wind_kph": 13.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-17",
+    "rain_mm": 9.573922514698051,
+    "temp_c": 34.3,
+    "humidity_pct": 82.2,
+    "wind_kph": 12.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-18",
+    "rain_mm": 15.998072278220498,
+    "temp_c": 32.4,
+    "humidity_pct": 72.0,
+    "wind_kph": 7.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-19",
+    "rain_mm": 1.9951894929079241,
+    "temp_c": 34.8,
+    "humidity_pct": 81.3,
+    "wind_kph": 1.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-20",
+    "rain_mm": 9.469949478598991,
+    "temp_c": 30.8,
+    "humidity_pct": 93.2,
+    "wind_kph": 11.9,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-21",
+    "rain_mm": 10.554289316933225,
+    "temp_c": 31.8,
+    "humidity_pct": 75.2,
+    "wind_kph": 13.8,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-22",
+    "rain_mm": 0.0,
+    "temp_c": 31.2,
+    "humidity_pct": 74.7,
+    "wind_kph": 4.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-23",
+    "rain_mm": 11.164276152346819,
+    "temp_c": 30.7,
+    "humidity_pct": 68.0,
+    "wind_kph": 21.2,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-24",
+    "rain_mm": 5.713753797758407,
+    "temp_c": 32.3,
+    "humidity_pct": 77.3,
+    "wind_kph": 12.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-25",
+    "rain_mm": 1.9679490288928667,
+    "temp_c": 33.9,
+    "humidity_pct": 78.7,
+    "wind_kph": 16.5,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-26",
+    "rain_mm": 10.145747187285597,
+    "temp_c": 29.3,
+    "humidity_pct": 72.3,
+    "wind_kph": 17.5,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-27",
+    "rain_mm": 11.959928807793037,
+    "temp_c": 31.2,
+    "humidity_pct": 76.8,
+    "wind_kph": 7.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-28",
+    "rain_mm": 14.786527540051324,
+    "temp_c": 30.8,
+    "humidity_pct": 73.2,
+    "wind_kph": 14.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-29",
+    "rain_mm": 2.0435230869646785,
+    "temp_c": 31.4,
+    "humidity_pct": 80.1,
+    "wind_kph": 18.3,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-09-30",
+    "rain_mm": 6.785491816541697,
+    "temp_c": 34.2,
+    "humidity_pct": 80.3,
+    "wind_kph": 9.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-01",
+    "rain_mm": 15.815514920810264,
+    "temp_c": 32.2,
+    "humidity_pct": 76.5,
+    "wind_kph": 4.6,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-02",
+    "rain_mm": 19.511562320929187,
+    "temp_c": 35.1,
+    "humidity_pct": 77.1,
+    "wind_kph": 14.0,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-03",
+    "rain_mm": 14.748272399715415,
+    "temp_c": 31.0,
+    "humidity_pct": 75.2,
+    "wind_kph": 16.7,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-04",
+    "rain_mm": 1.8027240255074855,
+    "temp_c": 31.9,
+    "humidity_pct": 86.4,
+    "wind_kph": 17.1,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-05",
+    "rain_mm": 88.4,
+    "temp_c": 31.8,
+    "humidity_pct": 96.7,
+    "wind_kph": 110.5,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   },
+   {
+    "date": "2026-10-06",
+    "rain_mm": 73.8,
+    "temp_c": 35.5,
+    "humidity_pct": 90.9,
+    "wind_kph": 112.5,
+    "river_level_m": null,
+    "river_trend": null,
+    "source": "simulated"
+   }
+  ]
+ }
+}
