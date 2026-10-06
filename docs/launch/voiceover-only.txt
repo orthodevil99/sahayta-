@@ -1,0 +1,46 @@
+Sahayta demo video — voiceover only (Variant A, "One Photo", 2:30)
+TTS-ready. Read at a calm, unhurried pace. Pronunciation hints are in
+parentheses — do NOT read the parentheses aloud, they are for the speaker.
+"2G" = "two gee". Numbers are written out.
+
+[1] Every monsoon, floods hit India. Phones work, networks don't, and help
+can't find the people who need it. This is Sahayta — a disaster-response
+O S for India.
+
+[2] A citizen in Patna — Kankarbagh, pronounced KUN-ker-bagh — photographs
+rising water. No English needed. No account. No manual. A photo, her own
+words, a pin on the map — sixty seconds, even on a shaky two-gee connection.
+
+[3] Sahayta's A I reads the photo and the Hindi text: severity 4 out of 5,
+rescue category, critical priority — in seconds. And notice the label:
+rule-fallback-v-one. It works with zero A P I keys, because in a disaster
+you can't depend on one.
+
+[4] Matching is skills, times distance, times availability. The nearest
+qualified volunteer: Ravi Kumar, 2.1 kilometers away, match score 92.5.
+He accepts. He's en route. And everyone watching the board sees it happen
+live.
+
+[5] One message, typed once, goes out in ten Indian languages — Hindi,
+Hinglish, Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam,
+Punjabi — each short enough for S M S, because S M S is what reaches people
+when data doesn't.
+
+[6] The district official sees everything on one screen: the live S O S map,
+a risk score of 82 with the reasons behind it, who's available, and a
+minute-by-minute incident timeline. Even the simulated weather feed is
+labeled — because in a disaster, trust is the feature.
+
+[7] Networks die in disasters — so reports queue offline and sync without
+duplicates. And the early-warning engine was already watching the sky.
+
+[8] One photo. One volunteer. One district that knew what was coming.
+That's Sahayta.
+
+---
+Hindi words appearing on screen (for the speaker's reference only):
+- bhejen (BHEH-jayn) = "send" — the red S O S button
+- Kankarbagh (KUN-ker-bagh) = neighborhood in Patna
+- baadh chetavni (baadh CHET-av-nee) = "flood warning" — broadcast title
+- raahat shivir (raa-hut shi-VIR) = "relief camp"
+- kataar mein (kuh-TAAR mayn) = "in queue" — offline outbox state
