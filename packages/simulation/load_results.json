@@ -1,0 +1,22 @@
+{
+ "scenarios_replayed": 30,
+ "sos_filed": 180,
+ "read_requests": 95,
+ "total_requests": 275,
+ "errors": 0,
+ "elapsed_s": 16.37,
+ "throughput_rps": 16.8,
+ "latency_ms": {
+  "p50": 65.8,
+  "p95": 107.0,
+  "max": 149.4
+ },
+ "triage_accuracy": {
+  "assessed": 180,
+  "exact_match": 0.344,
+  "within_one": 0.722,
+  "note": "expected severity = scenario ground truth; backend runs rule-fallback-v1"
+ },
+ "rate_limit_note": "fresh X-Device-Id per SOS (distinct simulated citizens); guest limit is 20 POST /api/sos/hr/device",
+ "synthetic": true
+}
