@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Sahayta design tokens (design-system §1.3/1.4, FROZEN) ---- */
+:root {
+  --ink: #0f172a;
+  --body: #334155;
+  --muted: #64748b;
+  --line: #e2e8f0;
+  --bg: #f8fafc;
+  --surface: #ffffff;
+}
+.dark {
+  --ink: #f1f5f9;
+  --body: #cbd5e1;
+  --muted: #94a3b8;
+  --line: #1e293b;
+  --bg: #0b1220;
+  --surface: #111c30;
+}
+
+html { -webkit-tap-highlight-color: transparent; }
+body { @apply bg-appbg text-body font-sans antialiased; }
+input, textarea, select { font-size: 16px; } /* prevents iOS auto-zoom */
+
+/* Numbers that matter are always big + bold */
+.num-big { @apply text-[28px] font-extrabold tabular-nums; }
+
+/* Logical properties everywhere (RTL-safe per i18n plan §4) */
+[dir="rtl"] .flip-rtl { transform: scaleX(-1); }
+
+/* ---- Buttons (design-system §5.1) ---- */
+@layer components {
+  .btn { @apply inline-flex min-h-[48px] items-center justify-center gap-2 rounded-btn px-5 text-[16px] font-semibold transition active:scale-[0.98] disabled:pointer-events-none disabled:opacity-40; }
+  .btn-primary { @apply btn bg-brand-600 text-white hover:bg-brand-700 min-h-[56px]; }
+  .btn-sos { @apply btn bg-alert-600 text-white hover:bg-alert-700 min-h-[64px] text-[18px]; } /* SOS filing ONLY */
+  .btn-secondary { @apply btn border-2 border-brand-600 bg-transparent text-brand-700 dark:text-brand-100; }
+  .btn-danger-ghost { @apply btn bg-transparent text-alert-600; }
+  .card { @apply rounded-card bg-surface shadow-card border border-line; }
+  .input { @apply w-full rounded-btn border border-line bg-surface px-4 py-3 text-ink placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-brand-600; }
+  .pill { @apply inline-flex min-h-[36px] items-center gap-1.5 rounded-full px-3 text-[14px] font-semibold; }
+  .chip { @apply inline-flex min-h-[48px] cursor-pointer items-center gap-2 rounded-full border border-line bg-surface px-4 text-[15px] font-medium text-body; }
+  .chip-active { @apply border-brand-600 bg-brand-100 text-brand-700 dark:bg-brand-600 dark:text-white; }
+  .skeleton { @apply animate-pulse rounded-card bg-line; }
+  .shimmer { background: linear-gradient(90deg, var(--line) 25%, var(--surface) 50%, var(--line) 75%); background-size: 800px 100%; animation: shimmer 1.4s infinite linear; }
+  .num-ltr { unicode-bidi: isolate; direction: ltr; display: inline-block; }
+}
+
+/* Severity-5 striped edge (design-system §1.1 — distinguishable in grayscale) */
+.sev5-stripes {
+  background-image: repeating-linear-gradient(45deg, #7f1d1d 0 8px, #991b1b 8px 16px);
+}
+
+/* ---- Low-bandwidth mode (design-system §6) ---- */
+body.low-bandwidth img,
+body.low-bandwidth .map-tiles,
+body.low-bandwidth video { display: none !important; }
+body.low-bandwidth { font-family: system-ui, sans-serif; }
+body.low-bandwidth * { animation: none !important; transition: none !important; }
+
+/* ---- High-contrast mode (i18n plan §6) ---- */
+body.high-contrast { --ink: #000; --body: #000; --muted: #1a1a1a; --line: #000; }
+body.high-contrast.dark { --ink: #fff; --body: #fff; --muted: #e5e5e5; --line: #fff; --bg: #000; --surface: #0a0a0a; }
+body.high-contrast .card, body.high-contrast .btn-secondary, body.high-contrast .chip { border-width: 2px; border-color: currentColor; }
+
+/* Focus ring — always visible on keyboard nav */
+:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* Leaflet container must have explicit height */
+.leaflet-container { font-family: inherit; z-index: 0; }
+.sos-pin { display: flex; align-items: center; justify-content: center; border-radius: 9999px; color: #fff; font-weight: 800; border: 3px solid #fff; box-shadow: 0 2px 8px rgb(0 0 0 / 0.35); }

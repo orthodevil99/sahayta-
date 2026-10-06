@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.test-build/
+out/
+dist/
+*.log
+.DS_Store
+# NOTE: public/demo-data/ is INTENTIONALLY committed (not ignored) so the
+# statically-exported PWA is self-contained for the demo video + Devpost demo link.
+tsconfig.tsbuildinfo
