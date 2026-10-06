@@ -1,0 +1,20 @@
+# ------------------------------- python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+# ------------------------------- backend runtime
+backend/sahayta.db*
+backend/media/
+backend/*.db*
+# ------------------------------- frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+# ------------------------------- env / secrets
+.env
+!.env.example
+# ------------------------------- misc
+.DS_Store
+.pytest_cache/
