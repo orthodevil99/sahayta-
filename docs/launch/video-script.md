@@ -78,9 +78,9 @@ Strongest on **[I]** and **[UX]**, carries **[F]** and **[T]** inside the flow.
 
 | | |
 |---|---|
-| **On screen** | `/admin?demo=1` → broadcast composer: district Patna, type flood, severity 4, title **बाढ़ चेतावनी** (baadh CHET-av-nee, "flood warning"), body typed once. Preview tabs flip **Hindi (Devanagari) → Hinglish (Latin)** — linger 3 s on each. **SEND** → confirm modal ("~12,400 people") → sent. Cut to `/alerts?demo=1`: the Hindi alert sits at top; open "View in" → bottom sheet scrolls all **10 languages**. |
-| **Action** `[UI]` | Type the message once — the ten-language sheet is the visual proof. The Hinglish version must be readable on camera. |
-| **Voiceover** | "One message, typed once, goes out in ten Indian languages — Hindi, Hinglish, Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam, Punjabi — each short enough for SMS, because SMS is what reaches people when data doesn't." |
+| **On screen** | `/admin?demo=1` → broadcast composer: district Patna, type flood, severity 4, title **बाढ़ चेतावनी** (baadh CHET-av-nee, "flood warning"), body typed once. Preview tabs flip **Hindi (Devanagari) → Hinglish (Latin)** — linger 3 s on each. **SEND** → confirm modal ("~12,400 people") → sent. Cut to `/alerts?demo=1`: the Hindi alert sits at top; open "View in" → bottom sheet scrolls all **11 languages**. |
+| **Action** `[UI]` | Type the message once — the eleven-language sheet is the visual proof. The Hinglish version must be readable on camera. |
+| **Voiceover** | "One message, typed once, goes out in eleven Indian languages — Hindi, Hinglish, English, Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam, Punjabi — each short enough for SMS, because SMS is what reaches people when data doesn't." |
 
 ## A6 — Command dashboard (1:55–2:20) · [F] [T]
 
@@ -120,9 +120,9 @@ sources as Variant A, different narration spine.
 
 | | |
 |---|---|
-| **On screen** | 0:00–0:12: flood fixture + title card (same as A1). 0:12–0:25: `/report?demo=1` in Hindi — photo, description, pin, SEND (fast-forward the wizard at 1.5×; the full-speed version lives in Variant A). 0:25–0:40: `/alerts?demo=1` 10-language bottom sheet scrolling. |
+| **On screen** | 0:00–0:12: flood fixture + title card (same as A1). 0:12–0:25: `/report?demo=1` in Hindi — photo, description, pin, SEND (fast-forward the wizard at 1.5×; the full-speed version lives in Variant A). 0:25–0:40: `/alerts?demo=1` 11-language bottom sheet scrolling. |
 | **Action** `[UI]` | Quick, propulsive cutting. The impact argument is *reach*: the affected citizen first, the warned population last. |
-| **Voiceover** | "Floods hit India every single monsoon. Sahayta is a disaster-response OS built for the people in the water — not the people in the control room. A citizen reports in Hindi, in sixty seconds. A district warns twelve thousand people in ten languages. That is the impact story: the last mile, covered." |
+| **Voiceover** | "Floods hit India every single monsoon. Sahayta is a disaster-response OS built for the people in the water — not the people in the control room. A citizen reports in Hindi, in sixty seconds. A district warns twelve thousand people in eleven languages. That is the impact story: the last mile, covered." |
 
 ## B2 — Chapter 2: FEASIBILITY (0:40–1:15) · [F]
 
@@ -138,7 +138,7 @@ sources as Variant A, different narration spine.
 |---|---|
 | **On screen** | 1:15–1:28: `/report?demo=1` — language switcher flipped Hindi → Tamil → Bengali (UI re-renders instantly, zero hardcoded strings). Mic button hover. 1:28–1:38: low-bandwidth toggle → map becomes text list (every pin mirrored). 1:38–1:50: airplane mode → SOS queued → reconnect → sent, no duplicates; high-contrast + font-size controls. |
 | **Action** `[UI]` | Each UX claim gets its 5-second visual proof. The language switch is the money shot — three scripts in ten seconds. |
-| **Voiceover** | "Designed for the actual user: ten languages with zero hardcoded strings, voice input for low-literacy reporters, a text-first mode when bandwidth dies, and an offline outbox that syncs without duplicates. Accessibility isn't a checklist here — it's the product." |
+| **Voiceover** | "Designed for the actual user: eleven languages with zero hardcoded strings, voice input for low-literacy reporters, a text-first mode when bandwidth dies, and an offline outbox that syncs without duplicates. Accessibility isn't a checklist here — it's the product." |
 
 ## B4 — Chapter 4: TECHNICAL CRAFT (1:50–2:20) · [T]
 
@@ -191,8 +191,8 @@ a teaser cut. Every beat survives; only the lingering dies. Uses `[PLAY]`
 
 | | |
 |---|---|
-| **On screen** | `[UI]` composer → Hindi → Hinglish preview → SEND → 10-language sheet scroll (fast). |
-| **Voiceover** | "One message, ten languages, each short enough for SMS — because SMS reaches people when data doesn't." |
+| **On screen** | `[UI]` composer → Hindi → Hinglish preview → SEND → 11-language sheet scroll (fast). |
+| **Voiceover** | "One message, eleven languages, each short enough for SMS — because SMS reaches people when data doesn't." |
 
 ## C5 — Dashboard (0:50–1:05) · [F] [T]
 
@@ -228,7 +228,7 @@ eligible range is 2–3 min, so ship A or B as the official entry and C as the t
 5. **Numbers on camera** (only the measured ones): 275 requests / 0 errors /
    p95 107 ms (load, localhost VM); 0.602 exact / 1.000 within-one on 5,000
    labeled fixtures (estimator); 92.5 match score, 2.09 km; risk 82/HIGH;
-   10 languages × 311 keys; 2,000 scenarios. Never claim early-warning
+   11 languages × 311 keys; 2,000 scenarios. Never claim early-warning
    precision — the backtest is a documented 0.0/0.0 limitation.
 6. **No fake interactions.** The PDF export is real (both server and demo
    paths). The mic button is shown, never faked into a transcription. Voice

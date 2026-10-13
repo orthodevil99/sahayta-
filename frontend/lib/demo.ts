@@ -553,7 +553,7 @@ export class DemoApiClient implements SahaytaApi {
   /* ---------------- Alerts ---------------- */
   async broadcast(input: BroadcastInput): Promise<BroadcastResult> {
     const b = await loadBundle();
-    const langs = input.languages?.length ? input.languages : ["hi", "hing", "bn", "ta", "te", "mr", "gu", "kn", "ml", "pa"];
+    const langs = input.languages?.length ? input.languages : ["hi", "hing", "bn", "ta", "te", "mr", "gu", "kn", "ml", "pa", "en"];
     const template = b.templates[input.type]?.templates as Record<string, string> | undefined;
     const rendered: Record<string, string> = {};
     for (const lang of langs) {
