@@ -12,6 +12,7 @@ import gu from "../i18n/gu.json";
 import kn from "../i18n/kn.json";
 import ml from "../i18n/ml.json";
 import pa from "../i18n/pa.json";
+import en from "../i18n/en.json";
 
 /**
  * i18n coverage + fallback-chain + SMS-length guards (Agent 12, Wave 4).
@@ -21,7 +22,7 @@ import pa from "../i18n/pa.json";
  * - data/alert-templates/*.json templates must render <= 160 chars.
  */
 type Dict = Record<string, unknown>;
-const LANGS: Record<string, Dict> = { hi, hing, bn, ta, te, mr, gu, kn, ml, pa };
+const LANGS: Record<string, Dict> = { hi, hing, bn, ta, te, mr, gu, kn, ml, pa, en };
 
 function flatKeys(o: Dict, prefix = ""): string[] {
   const out: string[] = [];

@@ -17,9 +17,10 @@ import gu from "./i18n/gu.json";
 import kn from "./i18n/kn.json";
 import ml from "./i18n/ml.json";
 import pa from "./i18n/pa.json";
+import en from "./i18n/en.json";
 
 type Dict = Record<string, unknown>;
-const DICTS: Record<LangCode, Dict> = { hi, hing, bn, ta, te, mr, gu, kn, ml, pa } as unknown as Record<LangCode, Dict>;
+const DICTS: Record<LangCode, Dict> = { hi, hing, bn, ta, te, mr, gu, kn, ml, pa, en } as unknown as Record<LangCode, Dict>;
 
 export const LANG_META: Record<LangCode, { name: string; native: string }> = {
   hi: { name: "Hindi", native: "हिन्दी" },
@@ -32,6 +33,7 @@ export const LANG_META: Record<LangCode, { name: string; native: string }> = {
   kn: { name: "Kannada", native: "ಕನ್ನಡ" },
   ml: { name: "Malayalam", native: "മലയാളം" },
   pa: { name: "Punjabi", native: "ਪੰਜਾਬੀ" },
+  en: { name: "English", native: "English" },
 };
 
 function lookup(dict: Dict, key: string): string | undefined {
@@ -79,7 +81,7 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
     } else {
       // First run: offer the browser language once via the header toast (layout handles it).
       const nav = navigator.language?.slice(0, 2).toLowerCase();
-      const map: Record<string, LangCode> = { bn: "bn", ta: "ta", te: "te", mr: "mr", gu: "gu", kn: "kn", ml: "ml", pa: "pa", hi: "hi" };
+      const map: Record<string, LangCode> = { bn: "bn", ta: "ta", te: "te", mr: "mr", gu: "gu", kn: "kn", ml: "ml", pa: "pa", hi: "hi", en: "en" };
       if (nav && map[nav] && map[nav] !== DEFAULT_LANG) {
         sessionStorage.setItem("sahayta.suggest_lang", map[nav]);
       }

@@ -14,8 +14,8 @@ export type RiskLevel = "low" | "moderate" | "high" | "severe";
 export type WeatherSource = "live" | "simulated";
 export type VolunteerSkill = "medical" | "rescue" | "driving" | "cooking" | "shelter_mgmt" | "translation" | "logistics" | "counseling" | "engineering";
 
-export type LangCode = "hi" | "hing" | "bn" | "ta" | "te" | "mr" | "gu" | "kn" | "ml" | "pa";
-export const LANG_CODES: LangCode[] = ["hi", "hing", "bn", "ta", "te", "mr", "gu", "kn", "ml", "pa"];
+export type LangCode = "hi" | "hing" | "bn" | "ta" | "te" | "mr" | "gu" | "kn" | "ml" | "pa" | "en";
+export const LANG_CODES: LangCode[] = ["hi", "hing", "bn", "ta", "te", "mr", "gu", "kn", "ml", "pa", "en"];
 export const DEFAULT_LANG: LangCode = "hi";
 
 export interface SeverityAssessment {
