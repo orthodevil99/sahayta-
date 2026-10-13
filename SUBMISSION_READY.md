@@ -59,8 +59,9 @@ Video assets: [`docs/launch/video-script.md`](docs/launch/video-script.md) (3 va
       Final gate: `docs/launch/pre-submit-checklist.md`.
 - [ ] **7. After submitting**, follow `docs/launch/after-submit.md`.
 
-**Deadlines:** Devpost closes **Oct 14, 2026, 12:45 AM EDT (10:15 AM IST)**.
-Internal hard deadline: **Oct 13, 2026, end of day IST.**
+**Deadlines:** Devpost's official submission window closes **Oct 13, 2026, 11:45pm CDT**
+(≈ Oct 14, 10:15am IST — checked Oct 13). The organizer site said Oct 12, so submit
+as early as possible and don't rely on the extra hours.
 
 ## Known limitations (stated honestly in the repo)
 

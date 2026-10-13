@@ -8,7 +8,7 @@ die in disasters.
 
 Built by a solo student (prakhar) plus 15 coordinated agent waves for
 **WarriorHacks 2.0** (HACKATHON track — code required). Submission deadline:
-**Oct 14, 2026, 10:15 AM IST**.
+**Oct 13, 2026, 11:45pm CDT** (≈ Oct 14, 10:15am IST — Devpost's official submission window; the organizer site said Oct 12, so submit ASAP and treat every hour as the last).
 
 > **Demo data notice:** every dataset in `data/` is **synthetic**, generated for
 > this project. It is labeled `DEMO DATA` in the UI and never presented as real.

@@ -9,8 +9,9 @@
 ## 0. Context & Constraints
 
 Sahayta is built for **WarriorHacks 2.0** (HACKATHON track — code required) by a solo builder
-(prakhar) plus coordinated agent waves, with an internal hard deadline of **Oct 13, 2026 EOD IST**
-and a Devpost submission deadline of **Oct 14, 2026, 10:15 AM IST**. Judging criteria:
+(prakhar) plus coordinated agent waves, with submissions closing **Oct 13, 2026, 11:45pm CDT** (≈ Oct 14, 10:15am IST — Devpost's
+official submission window, checked Oct 13; the organizer site said Oct 12, so the safe
+plan is to submit ASAP and treat every remaining hour as the last). Judging criteria:
 **Impact · Feasibility · User Experience · Technical Craft**.
 
 Hard constraints the architecture must respect:
