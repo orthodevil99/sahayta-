@@ -73,7 +73,7 @@
     "panel_kpis": "KPIs"
   },
   "alerts": {
-    "all_languages": "Sabhi 10 bhashayein",
+    "all_languages": "Sabhi 11 bhashayein",
     "current_risk": "Current jokhim",
     "f_district": "Zila",
     "f_type": "Type",
@@ -183,7 +183,7 @@
     "step2t": "AI check",
     "step3d": "Nazdeeki volunteer rawana",
     "step3t": "Madad",
-    "step4d": "10 bhashaon me warning",
+    "step4d": "11 bhashaon me warning",
     "step4t": "Alert",
     "tap_to_board": "Board kholne ke liye tap karein"
   },
