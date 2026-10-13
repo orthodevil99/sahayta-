@@ -48,7 +48,7 @@ python packages/simulation/demo_director.py --scenario patna-flood
 
 ## What's left — all prakhar-side manual actions
 
-See `SUBMISSION_READY.md`: create GitHub repo + push · deploy frontend (Vercel) · record 2–3 min video (script in `docs/launch/`) · capture 8 screenshots · **Google Form HACKATHON track selection** · submit on Devpost by **Oct 14, 10:15 AM IST**.
+See `SUBMISSION_READY.md`: create GitHub repo + push · deploy frontend (Vercel) · record 2–3 min video (script in `docs/launch/`) · capture 8 screenshots · **Google Form HACKATHON track selection** · submit on Devpost ASAP — the window closes **Oct 13, 2026, 11:45pm CDT** (≈ Oct 14, 10:15am IST).
 
 ## Commit history (all 15 agents + checkpoints)
 

@@ -36,5 +36,4 @@ Submit on Devpost. If any box fails, fix it first — do not submit around red.
 - [ ] This step is manual — confirm it yourself; no agent can do it for you.
 
 ## Timing
-- [ ] Submitting before **Oct 14, 2026, 12:45 AM EDT (10:15 AM IST)**;
-      internal hard deadline **Oct 13 EOD IST**.
+- [ ] Submitting ASAP — Devpost's window closes **Oct 13, 2026, 11:45pm CDT** (≈ Oct 14, 10:15am IST); organizer site said Oct 12, so treat every hour as the last.

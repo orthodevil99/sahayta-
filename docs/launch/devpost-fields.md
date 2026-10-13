@@ -80,5 +80,4 @@ Alembic, pdf-lib, reportlab
 - [ ] ≥3 screenshots uploaded
 - [ ] Demo link opens and `?demo=1` plays without a backend
 - [ ] HACKATHON track selected in the Google Form
-- [ ] Submit before **Oct 14, 2026, 12:45 AM EDT (10:15 AM IST)**;
-      internal hard deadline **Oct 13 EOD IST**
+- [ ] Submit ASAP — Devpost's window runs to **Oct 13, 2026, 11:45pm CDT** (≈ Oct 14, 10:15am IST); organizer site said Oct 12, so treat every hour as the last

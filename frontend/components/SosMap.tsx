@@ -3,7 +3,9 @@
  * SosMap — Leaflet map with severity heat layer + SOS pins + shelter markers.
  * Loaded with ssr:false (Leaflet needs window). The adjacent text list is the
  * screen-reader source of truth (design-system §8); the map itself is
- * aria-hidden. OSM tiles default; CartoDB dark_matter in dark mode.
+ * aria-hidden. OSM tiles default; Esri World Dark Gray canvas in dark mode.
+ * (CARTO basemaps now require an API key and render "API KEY REQUIRED"
+ * placeholder tiles, so the dark layer uses Esri's keyless endpoint.)
  */
 import { useEffect, useRef } from "react";
 import type { Shelter, SOSReport } from "../lib/types";
@@ -41,7 +43,7 @@ export default function SosMap({
       const map = L.map(divRef.current, { zoomControl: true, attributionControl: true }).setView(center, zoom);
       mapRef.current = map;
       const tiles = dark
-        ? L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", { attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 19, className: "map-tiles" })
+        ? L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", { attribution: "&copy; Esri, HERE, Garmin, OpenStreetMap contributors", maxZoom: 19, maxNativeZoom: 16, className: "map-tiles" })
         : L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap contributors", maxZoom: 19, className: "map-tiles" });
       tiles.addTo(map);
       layerRef.current = L.layerGroup().addTo(map);
@@ -49,7 +51,7 @@ export default function SosMap({
       const obs = new MutationObserver(() => {
         const isDark = document.documentElement.classList.contains("dark");
         tiles.setUrl(isDark
-          ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          ? "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
           : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png");
       });
       obs.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });

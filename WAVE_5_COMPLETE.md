@@ -76,4 +76,4 @@ ready for prakhar's manual submission steps (`SUBMISSION_READY.md`).
 `SUBMISSION_READY.md` § "Prakhar's remaining actions": push to GitHub →
 deploy frontend on Vercel → record video (Variant A) → capture 8 screenshots →
 **Google Form (HACKATHON track, manual)** → submit on Devpost by
-Oct 14, 10:15 AM IST (internal: Oct 13 EOD IST).
+Oct 13, 2026, 11:45pm CDT (≈ Oct 14, 10:15am IST — Devpost's official window; corrected Oct 13).
